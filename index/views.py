@@ -1,8 +1,9 @@
 from django.shortcuts import render
+from . import models
 
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'index.html', {'users': models.Users.objects.all()})
 
 
 def table(request):
