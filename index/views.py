@@ -3,7 +3,7 @@ from . import models
 
 
 def index(request):
-    return render(request, 'index.html', {'users': models.Users.objects.all()})
+    return render(request, 'index.html', {'user': models.user.objects.all()})
 
 
 def table(request):

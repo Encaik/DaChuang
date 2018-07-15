@@ -1,17 +1,22 @@
 from django.contrib import admin
-from index.models import Users, Reports
+from index.models import user, report, company
 
 
-admin.site.site_header = '上市公司年报搜索平台后台管理'
+admin.site.site_header = '上市公司年报信息搜索平台后台管理'
 admin.site.site_title = '大创'
 
 
-class UsersAdmin(admin.ModelAdmin):
-    list_display = ("id", "name")
+class UserAdmin(admin.ModelAdmin):
+    list_display = ("uid", "uname", "email", "telephone", "unit", "job", "creatdate")
 
 
-class ReportsAdmin(admin.ModelAdmin):
-    list_display = ("num", "year")
+class ReportAdmin(admin.ModelAdmin):
+    list_display = ("rid", "year", "rcp_id")
 
-admin.site.register(Users, UsersAdmin)
-admin.site.register(Reports, ReportsAdmin)
+
+class ComponyAdmin(admin.ModelAdmin):
+    list_display = ("cid", "cnum", "cfname", "website")
+
+admin.site.register(user, UserAdmin)
+admin.site.register(report, ReportAdmin)
+admin.site.register(company, ComponyAdmin)

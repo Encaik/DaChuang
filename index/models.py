@@ -1,25 +1,48 @@
 from django.db import models
 
 
-class Users(models.Model):
+class user(models.Model):
     class Meta():
         verbose_name = '用户'
         verbose_name_plural = '所有用户'
-    id = models.CharField(max_length=10, default=0, primary_key=True)
-    name = models.CharField(max_length=20)
-    password = models.CharField(max_length=20)
+    uid = models.AutoField(primary_key=True)
+    uname = models.CharField(max_length=20)
+    upwd = models.CharField(max_length=20)
+    fname = models.CharField(max_length=10)
+    lname = models.CharField(max_length=10)
+    sex = models.CharField(max_length=5)
+    age = models.CharField(max_length=5)
+    email = models.EmailField()
+    telephone = models.CharField(max_length=20)
+    unit = models.CharField(max_length=20)
+    job = models.CharField(max_length=20)
+    creatdate = models.DateField(auto_now_add=True)
 
     def __unicode__(self):
-        return self.id, self.name, self.password
+        return self.uid, self.uname, self.email, self.telephone, self.unit, self.job, self.creatdate
 
 
-class Reports(models.Model):
+class report(models.Model):
     class Meta():
         verbose_name = '年报'
         verbose_name_plural = '所有年报'
-    num = models.CharField(max_length=10, default=0, primary_key=True)
+    rid = models.AutoField(primary_key=True)
+    rcp = models.ForeignKey('company', on_delete=models.CASCADE)
     year = models.CharField(max_length=4)
-    text = models.TextField()
 
     def __unicode__(self):
-        return self.num, self.year, self.text
+        return self.rid, self.year, self.rcp_id
+
+
+class company(models.Model):
+    class Meta():
+        verbose_name = '公司'
+        verbose_name_plural = '所有公司'
+    cid = models.AutoField(primary_key=True)
+    cnum = models.CharField(max_length=10)
+    csname = models.CharField(max_length=10)
+    cfname = models.CharField(max_length=30)
+    website = models.CharField(max_length=30)
+
+    def __unicode__(self):
+        return self.cid, self.cnum, self.cfname, self.website
