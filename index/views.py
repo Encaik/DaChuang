@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from . import models
+from . import models, search
 
 
 def index(request):
-    return render(request, 'index.html', {'user': models.user.objects.all()})
+    return render(request, 'index.html', {'user': models.user.objects.all(), 'new': models.new.objects.all(), 'text': search.parse('福建省厦门市中级人民法院')})
 
 
 def table(request):

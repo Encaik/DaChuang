@@ -1,9 +1,9 @@
 from django.contrib import admin
-from index.models import user, report, company
+from index.models import user, report, company, new
 
 
 admin.site.site_header = '上市公司年报信息搜索平台后台管理'
-admin.site.site_title = '大创'
+admin.site.site_title = '上市公司年报信息搜索平台后台管理'
 
 
 class UserAdmin(admin.ModelAdmin):
@@ -17,6 +17,11 @@ class ReportAdmin(admin.ModelAdmin):
 class ComponyAdmin(admin.ModelAdmin):
     list_display = ("cid", "cnum", "cfname", "website")
 
+
+class NewAdmin(admin.ModelAdmin):
+    list_display = ("nid", "newdate", "ncp_id")
+
 admin.site.register(user, UserAdmin)
 admin.site.register(report, ReportAdmin)
 admin.site.register(company, ComponyAdmin)
+admin.site.register(new, NewAdmin)

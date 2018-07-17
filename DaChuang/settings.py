@@ -125,5 +125,5 @@ STATICFILES_DIRS = (
     ('css', os.path.join(STATIC_ROOT, 'css').replace('\\', '/')),
     ('scripts', os.path.join(STATIC_ROOT, 'scripts').replace('\\', '/')),
     ('images', os.path.join(STATIC_ROOT, 'images').replace('\\', '/')),
-    ('bootstrap', os.path.join(STATIC_ROOT, 'bootstrap').replace('\\', '/')),
+    ('bootstrap', os.path.join(STATIC_ROOT, 'bootstrap').replace('\\', '/'))
 )

@@ -42,7 +42,20 @@ class company(models.Model):
     cnum = models.CharField(max_length=10)
     csname = models.CharField(max_length=10)
     cfname = models.CharField(max_length=30)
-    website = models.CharField(max_length=30)
+    website = models.URLField()
 
     def __unicode__(self):
         return self.cid, self.cnum, self.cfname, self.website
+
+
+class new(models.Model):
+    class Meta():
+        verbose_name = '动态'
+        verbose_name_plural = '所有动态'
+    nid = models.AutoField(primary_key=True)
+    ncp = models.ForeignKey('company', on_delete=models.CASCADE)
+    newdate = models.DateField(auto_now_add=True)
+    newtext = models.TextField()
+
+    def __unicode__(self):
+        return self.nid, self.newdate, self.ncp_id
