@@ -11,11 +11,11 @@ from pdfminer.pdfinterp import PDFTextExtractionNotAllowed
 
 
 importlib.reload(sys)
-path = 'static/report/600225_2017_n.pdf'
+
 
 # 解析PDF文件并保存至文本中
-def gettext():
-    fp = open(path, 'rb')
+def gettext(name):
+    fp = open('static/report/'+name+'.pdf', 'rb')
     praser = PDFParser(fp)
     doc = PDFDocument()
     praser.set_document(doc)
@@ -46,7 +46,7 @@ def gettext():
             # LTTextBoxHorizontal 等等 想要获取文本就获得对象的text属性，
             for x in layout:
                 if (isinstance(x, LTTextBoxHorizontal)):
-                    with open('static/data/600225_2017_n.txt', 'a') as f:
+                    with open('static/data/'+name+'.txt', 'a') as f:
                         try:
                             results = x.get_text()
                             print(results)

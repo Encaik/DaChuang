@@ -3,7 +3,7 @@ from . import models, search
 
 
 def index(request):
-    return render(request, 'index.html', {'user': models.user.objects.all(), 'new': models.new.objects.all(), 'text': search.parse('福建省厦门市中级人民法院')})
+    return render(request, 'index.html', {'user': models.user.objects.all(), 'new': models.new.objects.all(), 'text': search.parse('利润分配总额')})
 
 
 def table(request):
