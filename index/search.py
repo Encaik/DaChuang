@@ -4,8 +4,8 @@ from . import pdftext
 
 # 关键词查找并返回结果字符串
 def parse(str):
-    name = '603315_2017_n'
-    # pdftext.gettext(name)
+    name = '603895_2017_n'
+    pdftext.gettext(name)
     fp = open('static/data/'+name+'.txt', 'rt')
     inner = fp.read()
     key = inner.find(str)
