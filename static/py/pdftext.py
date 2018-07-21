@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-from . import getinner
+from static.py import getinner
 
 
 # 去除txt文件中的空格及换行符

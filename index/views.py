@@ -1,9 +1,14 @@
 from django.shortcuts import render
-from . import models, search
+from . import models
+from static.py import search
 
 
 def index(request):
-    return render(request, 'index.html', {'user': models.user.objects.all(), 'new': models.new.objects.all(), 'text': search.parse('利润分配总额')})
+    return render(request, 'index.html', {
+        'user': models.user.objects.all(),
+        'new': models.new.objects.all(),
+        'text': search.parse('利润分配总额')
+    })
 
 
 def table(request):
