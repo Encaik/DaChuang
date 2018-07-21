@@ -4,10 +4,16 @@ from static.py import search
 
 
 def index(request):
+    if request.method == 'GET':
+        str = request.GET.get('input')
+        if str:
+            text = search.finish(str)
+        else:
+            text = ''
     return render(request, 'index.html', {
         'user': models.user.objects.all(),
         'new': models.new.objects.all(),
-        'text': search.finish('2017')
+        'text': text
     })
 
 

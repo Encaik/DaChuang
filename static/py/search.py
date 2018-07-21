@@ -6,11 +6,10 @@ import re
 
 # 关键词查找并返回结果字符串
 def parse(str, name):
-    # name = '1204740858'
     # pdfText.getText(name)
     fp = open('static/data/'+name+'.txt', 'rt')
     inner = fp.read()
-    text1 = re.findall('[\u4e00-\u9fa5,0-9,A-z]{5,}'+str+'[\u4e00-\u9fa5,0-9,A-z]{5,}', inner)
+    text1 = re.findall('[\u4e00-\u9fa5, 0-z]{5,50}'+str+'[\u4e00-\u9fa5, 0-z]{5,50}', inner)
     text2 = sorted(set(text1), key=text1.index)
     highlight = "<b><font color='red'>"+str+"</font></b>"
     result = []
@@ -21,13 +20,18 @@ def parse(str, name):
 
 
 def finish(str):
-    result = []
-    result1 = parse(str, '1204740858')
-    result2 = parse(str, '1204740820')
-    result3 = parse(str, '1204740521')
-    result4 = parse(str, '1204734306')
-    result.append(result1)
-    result.append(result2)
-    result.append(result3)
-    result.append(result4)
-    return result
+    results = []
+    name = [
+        '1204740858',
+        '1204740820',
+        '1204740521',
+        '1204734306',
+        '600225_2017_n',
+        '600869_2017_n',
+        '603315_2017_n',
+        '603895_2017_n'
+    ]
+    for _ in name:
+        result = parse(str, _)
+        results.append(result)
+    return results
