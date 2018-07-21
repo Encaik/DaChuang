@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
-from static.py import getinner
+from static.py import getInner
 
 
 # 去除txt文件中的空格及换行符
-def gettext(name):
-    getinner.gettext(name)
+def getText(name):
+    getInner.getText(name)
     fp = open('static/data/'+name+'.txt', 'rt+')
     text = fp.read().strip().replace("\n", "")
     fp.seek(0)

@@ -3,10 +3,10 @@
 
 import sys
 import importlib
-from pdfminer.pdfparser import PDFParser,PDFDocument
+from pdfminer.pdfparser import PDFParser, PDFDocument
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import PDFPageAggregator
-from pdfminer.layout import LTTextBoxHorizontal,LAParams
+from pdfminer.layout import LTTextBoxHorizontal, LAParams
 from pdfminer.pdfinterp import PDFTextExtractionNotAllowed
 
 
@@ -14,7 +14,7 @@ importlib.reload(sys)
 
 
 # 解析PDF文件并保存至文本中
-def gettext(name):
+def getText(name):
     fp = open('static/report/'+name+'.pdf', 'rb')
     praser = PDFParser(fp)
     doc = PDFDocument()

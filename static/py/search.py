@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # encoding: utf-8
-from static.py import pdftext
+from static.py import pdfText
 
 
 # 关键词查找并返回结果字符串
 def parse(str):
     name = '1204740858'
-    # pdftext.gettext(name)
+    # pdfText.getText(name)
     fp = open('static/data/'+name+'.txt', 'rt')
     inner = fp.read()
     key = inner.find(str)
