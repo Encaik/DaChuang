@@ -9,11 +9,13 @@ def index(request):
         if str:
             text = search.finish(str)
         else:
+            str = ''
             text = ''
     return render(request, 'index.html', {
         'user': models.user.objects.all(),
         'new': models.new.objects.all(),
-        'text': text
+        'text': text,
+        'str': str
     })
 
 
