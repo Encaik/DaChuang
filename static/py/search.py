@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
-from static.py import pdfText
+import os
+
+from static.py import pdfText, getFileName
 import re
 
 
@@ -15,22 +17,13 @@ def parse(str, name):
     result = []
     for _ in text2:
         temp = re.sub(str, highlight, _)
-        result.append([temp, name])
+        result.append([temp, name.split('/')[-1]])
     return result
 
 
 def finish(str):
     results = []
-    name = [
-        '1204740858',
-        '1204740820',
-        '1204740521',
-        '1204734306',
-        '600225_2017_n',
-        '600869_2017_n',
-        '603315_2017_n',
-        '603895_2017_n'
-    ]
+    name = getFileName.getszseFileNames() # +getFileName.getsseFileNames()
     for _ in name:
         result = parse(str, _)
         results.append(result)

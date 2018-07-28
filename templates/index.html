@@ -22,8 +22,8 @@
                 {% for news in inner %}
                     <tr class="task">
                         <td class="cell-icon"><i class="icon-checker high"></i></td>
-                        <td class="cell-title"><a href="#">{% autoescape off %}{{ news.0 }}{% endautoescape off %}</a></td>
-                        <td class="cell-time align-right">{{ news.1 }}</td>
+                        <td class="cell-title"><a href="/static/report/{{ news.1 }}.pdf">{% autoescape off %}{{ news.0 }}{% endautoescape off %}</a></td>
+                        <td class="cell-time align-right">来源文件：{{ news.1 }}</td>
                     </tr>
                 {% endfor %}
             {% endfor %}
