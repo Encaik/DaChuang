@@ -105,3 +105,8 @@ venv.bak/
 
 # PDF
 .pdf
+.PDF
+
+# TXT
+.txt
+.TXT
