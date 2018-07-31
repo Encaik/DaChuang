@@ -29,6 +29,8 @@ class report(models.Model):
     rid = models.AutoField(primary_key=True)
     rcp = models.ForeignKey('company', on_delete=models.CASCADE)
     year = models.CharField(max_length=4)
+    text = models.TextField()
+    filename = models.CharField(max_length=30)
 
     def __unicode__(self):
         return self.rid, self.year, self.rcp_id

@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$/static/data/600225_2017_n.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/static/data/600869_2017_n.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/static/data/603315_2017_n.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/data/sse/600085_2017_nzy.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/data/sse/600141_2017_nzy.txt" charset="GBK" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-
+import os
 import sys
 import importlib
 from pdfminer.pdfparser import PDFParser, PDFDocument
@@ -15,7 +15,9 @@ importlib.reload(sys)
 
 # 解析PDF文件并保存至文本中
 def getText(name):
-    fp = open('static/report/'+name+'.pdf', 'rb')
+    pdfpath = 'static/report/'+name+'.pdf'
+    txtpath = 'static/data/'+name+'.txt'
+    fp = open(pdfpath, 'rb')
     praser = PDFParser(fp)
     doc = PDFDocument()
     praser.set_document(doc)
@@ -36,20 +38,20 @@ def getText(name):
         device = PDFPageAggregator(rsrcmgr, laparams=laparams)
         # 创建一个PDF解释器对象
         interpreter = PDFPageInterpreter(rsrcmgr, device)
-
-        # 循环遍历列表，每次处理一个page的内容
-        for page in doc.get_pages(): # doc.get_pages() 获取page列表
-            interpreter.process_page(page)
-            # 接受该页面的LTPage对象
-            layout = device.get_result()
-            # 这里layout是一个LTPage对象 里面存放着 这个page解析出的各种对象 一般包括LTTextBox, LTFigure, LTImage,
-            # LTTextBoxHorizontal 等等 想要获取文本就获得对象的text属性，
-            for x in layout:
-                if (isinstance(x, LTTextBoxHorizontal)):
-                    with open('static/data/'+name+'.txt', 'a') as f:
-                        try:
-                            results = x.get_text()
-                            print(results)
-                            f.write(results + '\n')
-                        except:
-                            pass
+        if not os.path.exists(txtpath):
+            # 循环遍历列表，每次处理一个page的内容
+            for page in doc.get_pages(): # doc.get_pages() 获取page列表
+                interpreter.process_page(page)
+                # 接受该页面的LTPage对象
+                layout = device.get_result()
+                # 这里layout是一个LTPage对象 里面存放着 这个page解析出的各种对象 一般包括LTTextBox, LTFigure, LTImage,
+                # LTTextBoxHorizontal 等等 想要获取文本就获得对象的text属性，
+                for x in layout:
+                    if isinstance(x, LTTextBoxHorizontal):
+                        with open(txtpath, 'a') as f:
+                            try:
+                                results = x.get_text()
+                                print(results)
+                                f.write(results + '\n')
+                            except:
+                                pass

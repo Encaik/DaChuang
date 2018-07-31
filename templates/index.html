@@ -1,39 +1,59 @@
-﻿<!DOCTYPE html>
+﻿{% load pagetag %}
+<!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>上市公司年报信息搜索平台后台管理</title>
-    <link type="text/css" href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link type="text/css" href="../static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link type="text/css" href="../static/css/theme.css" rel="stylesheet">
-    <link type="text/css" href="../static/images/icons/css/font-awesome.css" rel="stylesheet">
-    <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link type="text/css" href="../static/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link type="text/css" href="../static/bootstrap/css/bootstrap-reboot.css" rel="stylesheet">
+        {#<link type="text/css" href="../static/css/theme.css" rel="stylesheet">#}
+        {#<link type="text/css" href="../static/images/icons/css/font-awesome.css" rel="stylesheet">#}
     </head>
 
     <body>
-        <form action="/" method="get">
-            关键词: <input type="text" name="input" placeholder="{{ str }}">
-            <input type="submit" value="提交">
-        </form>
-        <p>{{ bad }}</p>
-        <table class="table table-message">
-            {% for inner in text %}
-                {% for news in inner %}
-                    <tr class="task">
-                        <td class="cell-icon"><i class="icon-checker high"></i></td>
-                        <td class="cell-title"><a href="/static/report/{{ news.1 }}.pdf">{% autoescape off %}{{ news.0 }}{% endautoescape off %}</a></td>
-                        <td class="cell-time align-right">来源文件：{{ news.1 }}</td>
-                    </tr>
-                {% endfor %}
-            {% endfor %}
-        </table>
-        <script src="../static/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
-        <script src="../static/scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
-        <script src="../static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../static/scripts/flot/jquery.flot.js" type="text/javascript"></script>
-        <script src="../static/scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
-        <script src="../static/scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
-        <script src="../static/scripts/common.js" type="text/javascript"></script>
+        <div id="body" class="p-2">
+            <div id="search" class="m-2">
+                <form action="/" method="get" class="d-flex justify-content-start">
+                    <div class="input-group">
+                        <input id="searchInput" type="text" class="form-control" name="input" value="{{ str }}" placeholder="{{ str }}">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">搜索</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="context">
+                <div id="text">
+                    <table class="table">
+                        {% for news in contacts %}
+                            <tr class="task">
+                                <td class="cell-title"><a href="/static/report/{{ news.1 }}.pdf">{% autoescape off %}{{ news.0 }}{% endautoescape off %}</a></td>
+                                <td class="cell-time align-right">来源文件：{{ news.2 }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                <div id="page" class="m-2">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            {% if contacts.has_previous %}
+                                <li class="page-item"><a class="page-link" href="?input={{ str }}&page=1">&laquo;首页</a></li>
+                                <li class="page-item"><a class="page-link" href="?input={{ str }}&page={{ contacts.previous_page_number }}">{{ contacts.previous_page_number }}</a></li>
+                            {% endif %}
+                            {% if contacts %}
+                                <li class="page-item active"><a class="page-link" href="#">{{ contacts.number }}</a></li>
+                            {% endif %}
+                            {% if contacts.has_next %}
+                                <li class="page-item"><a class="page-link" href="?input={{ str }}&page={{ contacts.next_page_number }}">{{ contacts.next_page_number }}</a></li>
+                                <li class="page-item"><a class="page-link" href="?input={{ str }}&page={{ contacts.paginator.num_pages }}">尾页&raquo;</a></li>
+                            {% endif %}
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script src="../static/jquery/jquery-3.3.1.min.js"></script>
+        <script src="../static/jquery/popper.min.js"></script>
+        <script src="../static/bootstrap/js/bootstrap.js"></script>
     </body>
 </html>

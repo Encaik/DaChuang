@@ -7,7 +7,10 @@ from static.py import getInner
 def getText(name):
     getInner.getText(name)
     fp = open('static/data/'+name+'.txt', 'rt+')
-    text = fp.read().strip().replace("\n", "")
-    fp.seek(0)
-    fp.truncate()
-    fp.write(text)
+    try:
+        text = fp.read().strip().replace("\n", "")
+        fp.seek(0)
+        fp.truncate()
+        fp.write(text)
+    except:
+        pass

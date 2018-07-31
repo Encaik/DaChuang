@@ -123,7 +123,7 @@ STATIC_ROOT = os.path.join(os.path.dirname(__file__), '../static')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     ('css', os.path.join(STATIC_ROOT, 'css').replace('\\', '/')),
-    ('scripts', os.path.join(STATIC_ROOT, 'scripts').replace('\\', '/')),
+    ('jquery', os.path.join(STATIC_ROOT, 'jquery').replace('\\', '/')),
     ('images', os.path.join(STATIC_ROOT, 'images').replace('\\', '/')),
     ('bootstrap', os.path.join(STATIC_ROOT, 'bootstrap').replace('\\', '/')),
     ('report', os.path.join(STATIC_ROOT, 'report').replace('\\', '/')),

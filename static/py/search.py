@@ -10,21 +10,29 @@ import re
 def parse(str, name):
     # pdfText.getText(name)
     fp = open('static/data/'+name+'.txt', 'rt')
-    inner = fp.read()
-    text1 = re.findall('[\u4e00-\u9fa5, 0-z]{5,50}'+str+'[\u4e00-\u9fa5, 0-z]{5,50}', inner)
-    text2 = sorted(set(text1), key=text1.index)
-    highlight = "<b><font color='red'>"+str+"</font></b>"
-    result = []
-    for _ in text2:
-        temp = re.sub(str, highlight, _)
-        result.append([temp, name.split('/')[-1]])
-    return result
-
+    try:
+        inner = fp.read()
+        text1 = re.findall('[\u4e00-\u9fa5, 0-z]{5,50}'+str+'[\u4e00-\u9fa5, 0-z]{5,50}', inner)
+        text2 = sorted(set(text1), key=text1.index)
+        highlight = "<b><font color='red'>"+str+"</font></b>"
+        result = []
+        for _ in text2:
+            temp = re.sub(str, highlight, _)
+            result.append([temp, name, name.split('/')[-1]])
+        return result
+    except:
+        pass
 
 def finish(str):
     results = []
-    name = getFileName.getszseFileNames() # +getFileName.getsseFileNames()
+    name = getFileName.getsseFileNames()+getFileName.getszseFileNames()
+    # name = {
+    #     '1204734306',
+    #     '1204740521',
+    #     '1204740820',
+    #     '1204740858',
+    # }
     for _ in name:
         result = parse(str, _)
-        results.append(result)
+        results += result
     return results

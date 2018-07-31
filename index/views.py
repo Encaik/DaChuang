@@ -1,63 +1,23 @@
 from django.shortcuts import render
-from . import models
+from index.models import user, report,new
+from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from static.py import search
 
 
 def index(request):
     if request.method == 'GET':
         str = request.GET.get('input')
-        if str:
-            text = search.finish(str)
-        else:
-            str = ''
-            text = ''
-    return render(request, 'index.html', {
-        'user': models.user.objects.all(),
-        'new': models.new.objects.all(),
-        'text': text,
+        if str == '':
+            return render(request, 'index.html')
+        if str is None:
+            return render(request, 'index.html')
+    text = search.finish(str)
+    page = request.GET.get('page', 1)
+    cus_list = text
+    paginator = Paginator(cus_list, 25)
+    contacts = paginator.get_page(page)
+    context = {
+        'contacts': contacts,
         'str': str
-    })
-
-
-def table(request):
-    return render(request, 'table.html')
-
-
-def task(request):
-    return render(request, 'task.html')
-
-
-def form(request):
-    return render(request, 'form.html')
-
-
-def message(request):
-    return render(request, 'message.html')
-
-
-def activity(request):
-    return render(request, 'activity.html')
-
-
-def charts(request):
-    return render(request, 'charts.html')
-
-
-def other_login(request):
-    return render(request, 'other-login.html')
-
-
-def other_user_listing(request):
-    return render(request, 'other-user-listing.html')
-
-
-def other_user_profile(request):
-    return render(request, 'other-user-profile.html')
-
-
-def ui_button_icon(request):
-    return render(request, 'other-user-listing.html')
-
-
-def ui_typography(request):
-    return render(request, 'other-user-profile.html')
+    }
+    return render(request, 'index.html', context)
