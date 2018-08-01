@@ -8,7 +8,7 @@ import re
 
 # 关键词查找并返回结果字符串
 def parse(str, name):
-    # pdfText.getText(name)
+    pdfText.getText(name)
     fp = open('static/data/'+name+'.txt', 'rt')
     try:
         inner = fp.read()

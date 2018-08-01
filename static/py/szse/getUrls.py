@@ -30,12 +30,11 @@ def getUrl(start, end, page):
     return urls
 
 
-def getUrls():
+def getUrls(start, end, page):
     try:
         allurls = []
-        result = getUrl('2018-1-1', '2018-3-31', 1)
-        for url in result:
-            allurls.append(url)
+        result = getUrl(start, end, page)
+        allurls += result
         return allurls
     except:
         print('end')

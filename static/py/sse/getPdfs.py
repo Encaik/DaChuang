@@ -3,7 +3,7 @@ from static.py.sse import getUrls
 
 
 def getpdf():
-    urls = getUrls.getUrls()
+    urls = getUrls.getUrls('2018-1-1', '2018-3-1', '5')
     for url in urls:
         file_name = url.split('/')[-1]
         u = urllib.request.urlopen(url)

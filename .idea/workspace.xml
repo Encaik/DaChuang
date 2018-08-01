@@ -2,8 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eede754-5f7e-41db-b39d-f5999a8056ab" name="默认的" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/1204734306.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/1204740521.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/1204740820.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/1204740858.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/600225_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/600869_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/603315_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/603895_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600006_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600006_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600056_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600056_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600061_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600061_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600073_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600073_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600076_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600076_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600078_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600078_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600081_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600081_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600085_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600085_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600106_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600106_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600121_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600121_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600131_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600131_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600135_2017_n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600135_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/sse/600141_2017_nzy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/11f7e31a-a5de-4d66-b625-18307475143c.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/136aeb81-6949-422d-b376-b1175a0a2456.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/149f6110-fb8c-401f-89b4-9da09a867b91.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/22873dea-fa2f-4870-93a8-82ef9f2b5713.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/23671eee-adbb-43f9-a2bd-88ac0d55bf9d.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/24db4d2d-dea1-4b84-8a5b-6777cbc21246.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/3f67481d-4259-4c5b-873c-0b9ef11d4dc3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/41239c45-db7b-4aaf-a5be-dcd288d80bab.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/43bca2d0-bf92-448e-89c5-fe57736a117f.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/55a456fd-186f-4eec-974f-110c3ab3b255.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/59d4931a-245f-4050-abc0-f63ac011c545.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/645d4bc6-b402-4aff-a243-04b8118ae237.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/64a0a56f-d938-46be-a537-ab3d14a3d0b6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/684b771b-deda-4473-9d3f-f6215baccf14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/6d67a0ac-0e21-4106-a7fd-74f260a770d5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/733720a3-168f-4f90-ba22-71b992badb6b.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/821debe6-d094-4d40-b759-9088938f1a07.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/8914e430-31d9-442f-8b35-73ebd2ff4915.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/8f3c059b-d97b-4051-822f-68cd56bed6d2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/907dd280-6f14-4b6d-a0cf-7755107b778e.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/a20709d6-e242-4caa-ab7f-a95f28b33a22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/b5acb5b4-d44c-4012-9ba6-51d6b7fac270.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/bac478aa-f1da-4bb6-87b5-38f9952a0830.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/c441820f-8331-4fac-9551-7dd822317d35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/e318e31a-448a-4c60-891d-a1e8d8093a06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/eb6c780f-88e3-48cb-bead-d10756b27dc1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/ee7a724f-b261-4188-aea3-e689c5aa21c0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/f0a05fa5-8a27-412e-a089-ce9b42eb117b.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/f53a9459-52c5-48fd-8a76-ef342d0b02bd.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/szse/f543227b-dfc2-465a-8be5-e1c4c3119756.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/1204734306.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/1204740521.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/1204740820.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/1204740858.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/600225_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/600869_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/603315_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/603895_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600006_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600006_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600056_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600056_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600061_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600061_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600073_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600073_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600076_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600076_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600078_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600078_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600081_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600081_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600085_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600085_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600106_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600106_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600121_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600121_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600131_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600131_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600135_2017_n.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600135_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/sse/600141_2017_nzy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/11f7e31a-a5de-4d66-b625-18307475143c.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/136aeb81-6949-422d-b376-b1175a0a2456.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/149f6110-fb8c-401f-89b4-9da09a867b91.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/22873dea-fa2f-4870-93a8-82ef9f2b5713.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/23671eee-adbb-43f9-a2bd-88ac0d55bf9d.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/24db4d2d-dea1-4b84-8a5b-6777cbc21246.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/3f67481d-4259-4c5b-873c-0b9ef11d4dc3.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/41239c45-db7b-4aaf-a5be-dcd288d80bab.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/43bca2d0-bf92-448e-89c5-fe57736a117f.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/55a456fd-186f-4eec-974f-110c3ab3b255.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/59d4931a-245f-4050-abc0-f63ac011c545.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/645d4bc6-b402-4aff-a243-04b8118ae237.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/64a0a56f-d938-46be-a537-ab3d14a3d0b6.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/684b771b-deda-4473-9d3f-f6215baccf14.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/6d67a0ac-0e21-4106-a7fd-74f260a770d5.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/733720a3-168f-4f90-ba22-71b992badb6b.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/821debe6-d094-4d40-b759-9088938f1a07.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/8914e430-31d9-442f-8b35-73ebd2ff4915.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/8f3c059b-d97b-4051-822f-68cd56bed6d2.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/907dd280-6f14-4b6d-a0cf-7755107b778e.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/a20709d6-e242-4caa-ab7f-a95f28b33a22.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/b5acb5b4-d44c-4012-9ba6-51d6b7fac270.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/bac478aa-f1da-4bb6-87b5-38f9952a0830.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/c441820f-8331-4fac-9551-7dd822317d35.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/e318e31a-448a-4c60-891d-a1e8d8093a06.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/eb6c780f-88e3-48cb-bead-d10756b27dc1.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/ee7a724f-b261-4188-aea3-e689c5aa21c0.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/f0a05fa5-8a27-412e-a089-ce9b42eb117b.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/f53a9459-52c5-48fd-8a76-ef342d0b02bd.PDF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/report/szse/f543227b-dfc2-465a-8be5-e1c4c3119756.PDF" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/search.py" afterPath="$PROJECT_DIR$/static/py/search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/sse/getPdfs.py" afterPath="$PROJECT_DIR$/static/py/sse/getPdfs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/sse/getUrls.py" afterPath="$PROJECT_DIR$/static/py/sse/getUrls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/szse/getPdfs.py" afterPath="$PROJECT_DIR$/static/py/szse/getPdfs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/szse/getUrls.py" afterPath="$PROJECT_DIR$/static/py/szse/getUrls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +146,8 @@
     <SUITE FILE_PATH="coverage/DaChuang$search.coverage" NAME="search Coverage Results" MODIFIED="1532145242155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/index" />
     <SUITE FILE_PATH="coverage/DaChuang$getFileName.coverage" NAME="getFileName Coverage Results" MODIFIED="1532781385961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/py" />
     <SUITE FILE_PATH="coverage/DaChuang$pdftext.coverage" NAME="pdftext Coverage Results" MODIFIED="1531834231192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/index" />
-    <SUITE FILE_PATH="coverage/DaChuang$getPdfs.coverage" NAME="getPdfs Coverage Results" MODIFIED="1532778235472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/py/sse" />
-    <SUITE FILE_PATH="coverage/DaChuang$getPdfs__1_.coverage" NAME="getPdfs (1) Coverage Results" MODIFIED="1532778866853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/py/szse" />
+    <SUITE FILE_PATH="coverage/DaChuang$getPdfs.coverage" NAME="getPdfs Coverage Results" MODIFIED="1533101837003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/py/sse" />
+    <SUITE FILE_PATH="coverage/DaChuang$getPdfs__1_.coverage" NAME="getPdfs (1) Coverage Results" MODIFIED="1533101882275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/py/szse" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -85,7 +215,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
@@ -95,11 +225,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/py/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="350">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#40#49#0" expanded="true" />
               </folding>
@@ -139,10 +269,6 @@
         <option value="$PROJECT_DIR$/static/data/603315_2017_n.txt" />
         <option value="$PROJECT_DIR$/index/search.py" />
         <option value="$PROJECT_DIR$/DaChuang/urls.py" />
-        <option value="$PROJECT_DIR$/static/py/sse/getUrls.py" />
-        <option value="$PROJECT_DIR$/static/py/szse/getUrls.py" />
-        <option value="$PROJECT_DIR$/static/py/szse/getPdfs.py" />
-        <option value="$PROJECT_DIR$/static/py/sse/getPdfs.py" />
         <option value="$PROJECT_DIR$/static/py/getFileName.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/static/py/getInner.py" />
@@ -151,11 +277,15 @@
         <option value="$PROJECT_DIR$/static/data/sse/600141_2017_nzy.txt" />
         <option value="$PROJECT_DIR$/index/templatetags/pagetag.py" />
         <option value="$PROJECT_DIR$/index/models.py" />
-        <option value="$PROJECT_DIR$/static/py/search.py" />
         <option value="$PROJECT_DIR$/index/views.py" />
         <option value="$PROJECT_DIR$/index/urls.py" />
         <option value="$PROJECT_DIR$/DaChuang/settings.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/py/search.py" />
+        <option value="$PROJECT_DIR$/static/py/sse/getPdfs.py" />
+        <option value="$PROJECT_DIR$/static/py/sse/getUrls.py" />
+        <option value="$PROJECT_DIR$/static/py/szse/getUrls.py" />
+        <option value="$PROJECT_DIR$/static/py/szse/getPdfs.py" />
       </list>
     </option>
   </component>
@@ -186,6 +316,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,25 +340,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="szse" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,46 +387,6 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="py" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -334,104 +416,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templatetags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -823,9 +813,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.getFileName" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getPdfs (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.getPdfs" />
+        <item index="0" class="java.lang.String" itemvalue="Python.getPdfs (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getPdfs" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getFileName" />
         <item index="3" class="java.lang.String" itemvalue="Python.search" />
         <item index="4" class="java.lang.String" itemvalue="Python.pdftext" />
       </list>
@@ -860,16 +850,16 @@
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21114683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21382637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31618434" sideWeight="0.50428724" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28617364" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3118971" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31618434" sideWeight="0.49571276" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16505896" sideWeight="0.49571276" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -926,34 +916,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/charts.html" />
     <entry file="file://$PROJECT_DIR$/static/py/sse/getPdfs" />
-    <entry file="file://$PROJECT_DIR$/static/py/sse/getUrls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/py/szse/getUrls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/py/szse/getPdfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/py/sse/getPdfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/py/getFileName.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -1256,10 +1218,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/py/szse/getUrls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/py/sse/getUrls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/py/szse/getPdfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/py/sse/getPdfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/py/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="350">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="e#40#49#0" expanded="true" />
           </folding>
