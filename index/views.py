@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from index.models import user, report,new
-from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
+from django.core.paginator import Paginator
 from static.py import search
 
 

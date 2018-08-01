@@ -6,11 +6,9 @@ import json
 
 
 def getUrl(start, end, page):
-    web = 'http://query.sse.com.cn/infodisplay/queryLatestBulletinNew.do' \
-          '?&jsonCallBack=jsonpCallback6133&productId=&reportType2=DQGG' \
-          '&reportType=YEARLY&beginDate='+start+'&endDate='+end+'&pageHelp.pageSize=25' \
-          '&pageHelp.pageCount=50&pageHelp.pageNo=1&pageHelp.beginPage=1&' \
-          'pageHelp.cacheSize=1&pageHelp.endPage='+page+'1'
+    if page == 1:
+        web = 'http://query.sse.com.cn/infodisplay/queryLatestBulletinNew.do?&jsonCallBack=jsonpCallback82326&productId=&reportType2=DQGG&reportType=&beginDate=' + start + '&endDate=' + end + '&pageHelp.pageSize=25&pageHelp.pageCount=50&pageHelp.pageNo=' + page + '&pageHelp.beginPage=' + page + '&pageHelp.cacheSize=1&pageHelp.endPage=5'
+    web = 'http://query.sse.com.cn/infodisplay/queryLatestBulletinNew.do?&jsonCallBack=jsonpCallback82326&productId=&reportType2=DQGG&reportType=&beginDate=' + start + '&endDate=' + end + '&pageHelp.pageSize=25&pageHelp.pageCount=50&pageHelp.pageNo=' + page + '&pageHelp.beginPage=' + page + '&pageHelp.cacheSize=1&pageHelp.endPage=' + page + '1'
     headers = {
         'User-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) '
                       'AppleWebKit/537.36 (KHTML, like Gecko) '
@@ -37,11 +35,11 @@ def getUrl(start, end, page):
     return urls
 
 
+# 只能搜索日期间隔少于30天的
 def getUrls(start, end, page):
-    try:
-        allurls = []
-        result = getUrl(start, end, page)
+    allurls = []
+    for i in range(page):
+        i += 1
+        result = getUrl(start, end, str(i))
         allurls += result
-        return allurls
-    except:
-        print('end')
+    return allurls

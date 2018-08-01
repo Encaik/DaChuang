@@ -31,10 +31,11 @@ def getUrl(start, end, page):
 
 
 def getUrls(start, end, page):
-    try:
-        allurls = []
-        result = getUrl(start, end, page)
+    allurls = []
+    for i in range(page):
+        i += 1
+        result = getUrl(start, end, i)
         allurls += result
-        return allurls
-    except:
-        print('end')
+    allurls = list(set(allurls))
+    return allurls
+
