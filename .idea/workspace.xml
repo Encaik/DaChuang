@@ -2,109 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eede754-5f7e-41db-b39d-f5999a8056ab" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/templatetags/pagetag.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bootstrap/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icons/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icons/font/fontawesome-webfont3294.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icons/font/fontawesome-webfont3294.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icons/font/fontawesome-webfont3294.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icons/font/fontawesome-webfontd41d.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/scripts/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/scripts/datatables/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/scripts/flot/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/scripts/flot/jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/scripts/flot/jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/scripts/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/scripts/jquery-ui-1.10.1.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/activity.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/charts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/message.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/other-login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/other-user-listing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/other-user-profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/task.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ui-button-icon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ui-typography.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report.db" afterPath="$PROJECT_DIR$/report.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/1204734306.PDF" afterPath="$PROJECT_DIR$/static/report/1204734306.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/1204740521.PDF" afterPath="$PROJECT_DIR$/static/report/1204740521.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/1204740820.PDF" afterPath="$PROJECT_DIR$/static/report/1204740820.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/1204740858.PDF" afterPath="$PROJECT_DIR$/static/report/1204740858.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/600225_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/600225_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/600869_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/600869_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/603315_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/603315_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/603895_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/603895_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600006_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600006_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600006_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600006_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600056_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600056_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600056_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600056_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600061_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600061_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600061_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600061_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600073_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600073_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600073_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600073_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600076_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600076_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600076_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600076_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600078_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600078_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600078_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600078_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600081_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600081_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600081_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600081_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600085_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600085_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600085_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600085_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600106_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600106_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600106_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600106_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600121_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600121_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600121_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600121_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600131_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600131_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600131_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600131_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600135_2017_n.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600135_2017_n.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600135_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600135_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/sse/600141_2017_nzy.pdf" afterPath="$PROJECT_DIR$/static/report/sse/600141_2017_nzy.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/11f7e31a-a5de-4d66-b625-18307475143c.PDF" afterPath="$PROJECT_DIR$/static/report/szse/11f7e31a-a5de-4d66-b625-18307475143c.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/136aeb81-6949-422d-b376-b1175a0a2456.PDF" afterPath="$PROJECT_DIR$/static/report/szse/136aeb81-6949-422d-b376-b1175a0a2456.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/149f6110-fb8c-401f-89b4-9da09a867b91.PDF" afterPath="$PROJECT_DIR$/static/report/szse/149f6110-fb8c-401f-89b4-9da09a867b91.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/22873dea-fa2f-4870-93a8-82ef9f2b5713.PDF" afterPath="$PROJECT_DIR$/static/report/szse/22873dea-fa2f-4870-93a8-82ef9f2b5713.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/23671eee-adbb-43f9-a2bd-88ac0d55bf9d.PDF" afterPath="$PROJECT_DIR$/static/report/szse/23671eee-adbb-43f9-a2bd-88ac0d55bf9d.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/24db4d2d-dea1-4b84-8a5b-6777cbc21246.PDF" afterPath="$PROJECT_DIR$/static/report/szse/24db4d2d-dea1-4b84-8a5b-6777cbc21246.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/3f67481d-4259-4c5b-873c-0b9ef11d4dc3.PDF" afterPath="$PROJECT_DIR$/static/report/szse/3f67481d-4259-4c5b-873c-0b9ef11d4dc3.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/41239c45-db7b-4aaf-a5be-dcd288d80bab.PDF" afterPath="$PROJECT_DIR$/static/report/szse/41239c45-db7b-4aaf-a5be-dcd288d80bab.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/43bca2d0-bf92-448e-89c5-fe57736a117f.PDF" afterPath="$PROJECT_DIR$/static/report/szse/43bca2d0-bf92-448e-89c5-fe57736a117f.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/55a456fd-186f-4eec-974f-110c3ab3b255.PDF" afterPath="$PROJECT_DIR$/static/report/szse/55a456fd-186f-4eec-974f-110c3ab3b255.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/59d4931a-245f-4050-abc0-f63ac011c545.PDF" afterPath="$PROJECT_DIR$/static/report/szse/59d4931a-245f-4050-abc0-f63ac011c545.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/645d4bc6-b402-4aff-a243-04b8118ae237.PDF" afterPath="$PROJECT_DIR$/static/report/szse/645d4bc6-b402-4aff-a243-04b8118ae237.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/64a0a56f-d938-46be-a537-ab3d14a3d0b6.PDF" afterPath="$PROJECT_DIR$/static/report/szse/64a0a56f-d938-46be-a537-ab3d14a3d0b6.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/684b771b-deda-4473-9d3f-f6215baccf14.PDF" afterPath="$PROJECT_DIR$/static/report/szse/684b771b-deda-4473-9d3f-f6215baccf14.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/6d67a0ac-0e21-4106-a7fd-74f260a770d5.PDF" afterPath="$PROJECT_DIR$/static/report/szse/6d67a0ac-0e21-4106-a7fd-74f260a770d5.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/733720a3-168f-4f90-ba22-71b992badb6b.PDF" afterPath="$PROJECT_DIR$/static/report/szse/733720a3-168f-4f90-ba22-71b992badb6b.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/821debe6-d094-4d40-b759-9088938f1a07.PDF" afterPath="$PROJECT_DIR$/static/report/szse/821debe6-d094-4d40-b759-9088938f1a07.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/8914e430-31d9-442f-8b35-73ebd2ff4915.PDF" afterPath="$PROJECT_DIR$/static/report/szse/8914e430-31d9-442f-8b35-73ebd2ff4915.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/8f3c059b-d97b-4051-822f-68cd56bed6d2.PDF" afterPath="$PROJECT_DIR$/static/report/szse/8f3c059b-d97b-4051-822f-68cd56bed6d2.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/907dd280-6f14-4b6d-a0cf-7755107b778e.PDF" afterPath="$PROJECT_DIR$/static/report/szse/907dd280-6f14-4b6d-a0cf-7755107b778e.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/a20709d6-e242-4caa-ab7f-a95f28b33a22.PDF" afterPath="$PROJECT_DIR$/static/report/szse/a20709d6-e242-4caa-ab7f-a95f28b33a22.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/b5acb5b4-d44c-4012-9ba6-51d6b7fac270.PDF" afterPath="$PROJECT_DIR$/static/report/szse/b5acb5b4-d44c-4012-9ba6-51d6b7fac270.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/bac478aa-f1da-4bb6-87b5-38f9952a0830.PDF" afterPath="$PROJECT_DIR$/static/report/szse/bac478aa-f1da-4bb6-87b5-38f9952a0830.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/c441820f-8331-4fac-9551-7dd822317d35.PDF" afterPath="$PROJECT_DIR$/static/report/szse/c441820f-8331-4fac-9551-7dd822317d35.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/e318e31a-448a-4c60-891d-a1e8d8093a06.PDF" afterPath="$PROJECT_DIR$/static/report/szse/e318e31a-448a-4c60-891d-a1e8d8093a06.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/eb6c780f-88e3-48cb-bead-d10756b27dc1.PDF" afterPath="$PROJECT_DIR$/static/report/szse/eb6c780f-88e3-48cb-bead-d10756b27dc1.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/ee7a724f-b261-4188-aea3-e689c5aa21c0.PDF" afterPath="$PROJECT_DIR$/static/report/szse/ee7a724f-b261-4188-aea3-e689c5aa21c0.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/f0a05fa5-8a27-412e-a089-ce9b42eb117b.PDF" afterPath="$PROJECT_DIR$/static/report/szse/f0a05fa5-8a27-412e-a089-ce9b42eb117b.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/f53a9459-52c5-48fd-8a76-ef342d0b02bd.PDF" afterPath="$PROJECT_DIR$/static/report/szse/f53a9459-52c5-48fd-8a76-ef342d0b02bd.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/report/szse/f543227b-dfc2-465a-8be5-e1c4c3119756.PDF" afterPath="$PROJECT_DIR$/static/report/szse/f543227b-dfc2-465a-8be5-e1c4c3119756.PDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/a30a3dc6-f21d-421c-89af-36737f2256f7.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/a30a3dc6-f21d-421c-89af-36737f2256f7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DaChuang/settings.py" afterPath="$PROJECT_DIR$/DaChuang/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/models.py" afterPath="$PROJECT_DIR$/index/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/urls.py" afterPath="$PROJECT_DIR$/index/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/views.py" afterPath="$PROJECT_DIR$/index/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/getInner.py" afterPath="$PROJECT_DIR$/static/py/getInner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/pdfText.py" afterPath="$PROJECT_DIR$/static/py/pdfText.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/search.py" afterPath="$PROJECT_DIR$/static/py/search.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,7 +66,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="150">
               <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -180,7 +78,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="800">
               <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
               <folding />
             </state>
@@ -190,8 +88,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="203">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -200,7 +98,7 @@
       <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/py/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="175">
               <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
                 <element signature="e#40#49#0" expanded="true" />
@@ -288,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,6 +227,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DaChuang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DaChuang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sse" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,6 +430,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -940,16 +860,16 @@
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20578778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21114683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5937835" sideWeight="0.5021436" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31618434" sideWeight="0.50428724" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28617364" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3118971" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31618434" sideWeight="0.49785638" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31618434" sideWeight="0.49571276" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1004,13 +924,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/charts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4572">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/charts.html" />
     <entry file="file://$PROJECT_DIR$/static/py/sse/getPdfs" />
     <entry file="file://$PROJECT_DIR$/static/py/sse/getUrls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1224,14 +1138,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/7d2e8293/a30a3dc6-f21d-421c-89af-36737f2256f7/index_report">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1263,29 +1177,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/icons/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/icons/css/font-awesome.css" />
     <entry file="file://$PROJECT_DIR$/index/templatetags/pagetag.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="e#40#81#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1301,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,7 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,41 +1211,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/activity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/py/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/activity.html" />
     <entry file="file://$PROJECT_DIR$/static/bootstrap/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="150">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -1367,11 +1240,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="203">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/py/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
