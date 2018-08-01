@@ -2,19 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eede754-5f7e-41db-b39d-f5999a8056ab" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/jquery-ui/picker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/user.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/favicon.ico" afterPath="$PROJECT_DIR$/static/images/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/views.py" afterPath="$PROJECT_DIR$/index/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600008_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600008_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600008_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600008_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600058_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600058_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600058_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600058_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600168_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600168_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600168_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600168_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600190_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600190_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600190_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600190_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600226_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600226_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600226_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600226_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600353_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600353_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600753_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600753_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600753_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600753_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600793_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600793_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600793_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600793_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600844_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600844_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600844_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600844_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601005_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/601005_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601005_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/601005_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603127_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603127_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603127_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603127_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603456_2017_nA.txt" afterPath="$PROJECT_DIR$/static/data/sse/603456_2017_nA.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603456_2017_nzyA.txt" afterPath="$PROJECT_DIR$/static/data/sse/603456_2017_nzyA.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603730_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603730_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603730_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603730_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603826_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603826_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603826_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603826_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/0140faf7-0a02-4538-9851-8878071ea324.txt" afterPath="$PROJECT_DIR$/static/data/szse/0140faf7-0a02-4538-9851-8878071ea324.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/1bbdbd72-ca33-48b0-8cc9-4e393e3ecf06.txt" afterPath="$PROJECT_DIR$/static/data/szse/1bbdbd72-ca33-48b0-8cc9-4e393e3ecf06.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/2aa94cb8-6de9-4083-8edd-fd352888e84f.txt" afterPath="$PROJECT_DIR$/static/data/szse/2aa94cb8-6de9-4083-8edd-fd352888e84f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/2f7d9685-9c7e-4f28-91b8-037bbfb617af.txt" afterPath="$PROJECT_DIR$/static/data/szse/2f7d9685-9c7e-4f28-91b8-037bbfb617af.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/4114610f-d065-4159-bb17-c858b4b57a58.txt" afterPath="$PROJECT_DIR$/static/data/szse/4114610f-d065-4159-bb17-c858b4b57a58.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/45277cf7-baf5-4297-ac56-b6e787d56038.txt" afterPath="$PROJECT_DIR$/static/data/szse/45277cf7-baf5-4297-ac56-b6e787d56038.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/4bef5ead-eddc-42d6-8093-ace4f595bb9d.txt" afterPath="$PROJECT_DIR$/static/data/szse/4bef5ead-eddc-42d6-8093-ace4f595bb9d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/4da2f941-cdc7-4b55-ba81-a7266470cf32.txt" afterPath="$PROJECT_DIR$/static/data/szse/4da2f941-cdc7-4b55-ba81-a7266470cf32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5014866a-854e-44c1-bc1b-41e5b51936ff.txt" afterPath="$PROJECT_DIR$/static/data/szse/5014866a-854e-44c1-bc1b-41e5b51936ff.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/509b089a-9144-4df3-b615-c2cbfb5715c8.txt" afterPath="$PROJECT_DIR$/static/data/szse/509b089a-9144-4df3-b615-c2cbfb5715c8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/52be0857-ee0a-4fb2-aed2-e4df0f5edc57.txt" afterPath="$PROJECT_DIR$/static/data/szse/52be0857-ee0a-4fb2-aed2-e4df0f5edc57.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5359ff16-f704-4bce-ad67-1699def926a9.txt" afterPath="$PROJECT_DIR$/static/data/szse/5359ff16-f704-4bce-ad67-1699def926a9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/53826237-572d-42d2-996f-54ca3447e618.txt" afterPath="$PROJECT_DIR$/static/data/szse/53826237-572d-42d2-996f-54ca3447e618.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/54138deb-0a1f-4163-8f1d-addfcf199e25.txt" afterPath="$PROJECT_DIR$/static/data/szse/54138deb-0a1f-4163-8f1d-addfcf199e25.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/579d80fb-5e08-4aee-8785-4f67f5b24078.txt" afterPath="$PROJECT_DIR$/static/data/szse/579d80fb-5e08-4aee-8785-4f67f5b24078.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/58b5e64b-2f8e-4675-a5b9-054ec08839e6.txt" afterPath="$PROJECT_DIR$/static/data/szse/58b5e64b-2f8e-4675-a5b9-054ec08839e6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/62793995-db42-4e97-a781-53fcc02b4da9.txt" afterPath="$PROJECT_DIR$/static/data/szse/62793995-db42-4e97-a781-53fcc02b4da9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/6c737f2c-539c-40fa-ab1e-34062f568073.txt" afterPath="$PROJECT_DIR$/static/data/szse/6c737f2c-539c-40fa-ab1e-34062f568073.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/7985115d-1c4a-4239-af16-4fa7b30fa6c3.txt" afterPath="$PROJECT_DIR$/static/data/szse/7985115d-1c4a-4239-af16-4fa7b30fa6c3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/896dfe44-0732-4dfb-9e52-b213a7add1e7.txt" afterPath="$PROJECT_DIR$/static/data/szse/896dfe44-0732-4dfb-9e52-b213a7add1e7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/8e321202-8fc5-4571-bd76-0ac9ebcc7707.txt" afterPath="$PROJECT_DIR$/static/data/szse/8e321202-8fc5-4571-bd76-0ac9ebcc7707.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/a9e92a4e-06e4-4896-a279-ef6c9d3b6af4.txt" afterPath="$PROJECT_DIR$/static/data/szse/a9e92a4e-06e4-4896-a279-ef6c9d3b6af4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/b133077e-e8ca-4ba8-b92e-4c8c0f9ea804.txt" afterPath="$PROJECT_DIR$/static/data/szse/b133077e-e8ca-4ba8-b92e-4c8c0f9ea804.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/b1905a75-6914-422c-8cc8-89afc104bcdd.txt" afterPath="$PROJECT_DIR$/static/data/szse/b1905a75-6914-422c-8cc8-89afc104bcdd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/bd297b0b-179f-4c52-a637-0f00c6616236.txt" afterPath="$PROJECT_DIR$/static/data/szse/bd297b0b-179f-4c52-a637-0f00c6616236.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c13ea885-4e57-4db4-891e-f3bb7d1686d8.txt" afterPath="$PROJECT_DIR$/static/data/szse/c13ea885-4e57-4db4-891e-f3bb7d1686d8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c5776928-75ca-4652-acd2-8ae7efc8e171.txt" afterPath="$PROJECT_DIR$/static/data/szse/c5776928-75ca-4652-acd2-8ae7efc8e171.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c77344aa-fc40-425e-aa9c-7a0f0a596bd0.txt" afterPath="$PROJECT_DIR$/static/data/szse/c77344aa-fc40-425e-aa9c-7a0f0a596bd0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/cbe31f60-2cec-4d5f-96f6-4c0896bb4b73.txt" afterPath="$PROJECT_DIR$/static/data/szse/cbe31f60-2cec-4d5f-96f6-4c0896bb4b73.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/cdc9d886-138b-4727-9b38-167f93067e81.txt" afterPath="$PROJECT_DIR$/static/data/szse/cdc9d886-138b-4727-9b38-167f93067e81.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/da2d488b-cf98-4849-b98a-0ebf27a5ce06.txt" afterPath="$PROJECT_DIR$/static/data/szse/da2d488b-cf98-4849-b98a-0ebf27a5ce06.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/dcf26d23-10e6-44b9-8512-d69c7c6b4f32.txt" afterPath="$PROJECT_DIR$/static/data/szse/dcf26d23-10e6-44b9-8512-d69c7c6b4f32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/df0e7803-7897-4cbd-96c3-f131b45112c0.txt" afterPath="$PROJECT_DIR$/static/data/szse/df0e7803-7897-4cbd-96c3-f131b45112c0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/e90bd277-6e1c-4fdc-b869-f9e80f57b864.txt" afterPath="$PROJECT_DIR$/static/data/szse/e90bd277-6e1c-4fdc-b869-f9e80f57b864.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/f8a2851b-3195-4026-b64e-0273d2fc9b25.txt" afterPath="$PROJECT_DIR$/static/data/szse/f8a2851b-3195-4026-b64e-0273d2fc9b25.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/getInner.py" afterPath="$PROJECT_DIR$/static/py/getInner.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/pdfText.py" afterPath="$PROJECT_DIR$/static/py/pdfText.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/search.py" afterPath="$PROJECT_DIR$/static/py/search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/sse/getPdfs.py" afterPath="$PROJECT_DIR$/static/py/sse/getPdfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/sse/getUrls.py" afterPath="$PROJECT_DIR$/static/py/sse/getUrls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/szse/getPdfs.py" afterPath="$PROJECT_DIR$/static/py/szse/getPdfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/szse/getUrls.py" afterPath="$PROJECT_DIR$/static/py/szse/getUrls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +81,10 @@
     <SUITE FILE_PATH="coverage/DaChuang$search.coverage" NAME="search Coverage Results" MODIFIED="1532145242155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/index" />
     <SUITE FILE_PATH="coverage/DaChuang$getFileName.coverage" NAME="getFileName Coverage Results" MODIFIED="1532781385961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/py" />
     <SUITE FILE_PATH="coverage/DaChuang$pdftext.coverage" NAME="pdftext Coverage Results" MODIFIED="1531834231192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/index" />
+    <SUITE FILE_PATH="coverage/DaChuang$test.coverage" NAME="test Coverage Results" MODIFIED="1533115261082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DaChuang$getPdfs__1_.coverage" NAME="getPdfs (1) Coverage Results" MODIFIED="1533104879036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/py/szse" />
     <SUITE FILE_PATH="coverage/DaChuang$getPdfs.coverage" NAME="getPdfs Coverage Results" MODIFIED="1533106856310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/py/sse" />
+    <SUITE FILE_PATH="coverage/DaChuang$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1533115603167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -77,31 +133,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pdfText.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/py/pdfText.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getInner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/py/getInner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -116,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="-200">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -129,8 +165,8 @@
       <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/py/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="434">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#40#49#0" expanded="true" />
               </folding>
@@ -172,21 +208,23 @@
         <option value="$PROJECT_DIR$/DaChuang/urls.py" />
         <option value="$PROJECT_DIR$/static/py/getFileName.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/static/py/getInner.py" />
         <option value="$PROJECT_DIR$/static/data/sse/600085_2017_nzy.txt" />
         <option value="$PROJECT_DIR$/static/data/sse/600141_2017_nzy.txt" />
         <option value="$PROJECT_DIR$/index/templatetags/pagetag.py" />
         <option value="$PROJECT_DIR$/index/models.py" />
         <option value="$PROJECT_DIR$/index/urls.py" />
         <option value="$PROJECT_DIR$/DaChuang/settings.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/py/szse/getPdfs.py" />
         <option value="$PROJECT_DIR$/static/py/szse/getUrls.py" />
         <option value="$PROJECT_DIR$/static/py/sse/getUrls.py" />
         <option value="$PROJECT_DIR$/static/py/sse/getPdfs.py" />
         <option value="$PROJECT_DIR$/index/views.py" />
+        <option value="$PROJECT_DIR$/static/py/getInner.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/static/py/pdfText.py" />
         <option value="$PROJECT_DIR$/static/py/search.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -218,6 +256,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,28 +300,6 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -299,10 +316,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="szse" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,7 +357,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,50 +379,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\py\PycharmProjects\DaChuang\static" />
       <recent name="E:\Users\py\PycharmProjects\DaChuang\static\py" />
       <recent name="E:\Users\py\PycharmProjects\DaChuang\static\report" />
-      <recent name="E:\Users\py\PycharmProjects\DaChuang\static" />
       <recent name="E:\Users\py\PycharmProjects\DaChuang\index" />
       <recent name="E:\Users\py\PycharmProjects\DaChuang\index\report" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.DaChuang">
-    <configuration default="false" name="pdftext" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/index" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DaChuang" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Users\py\PycharmProjects\DaChuang\static\py\pdfText.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/index" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DaChuang" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Users\py\PycharmProjects\DaChuang\static\py\search.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="getPdfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -461,6 +437,42 @@
       <module name="DaChuang" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static/py/getFileName.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DaChuang" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\py\PycharmProjects\DaChuang\test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DaChuang" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -728,19 +740,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.DaChuang" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pdftext" />
-      <item index="2" class="java.lang.String" itemvalue="Python.search" />
-      <item index="3" class="java.lang.String" itemvalue="Python.getPdfs" />
-      <item index="4" class="java.lang.String" itemvalue="Python.getPdfs (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.getFileName" />
+      <item index="1" class="java.lang.String" itemvalue="Python.getPdfs" />
+      <item index="2" class="java.lang.String" itemvalue="Python.getPdfs (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.getFileName" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.getPdfs" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getPdfs (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.getFileName" />
-        <item index="3" class="java.lang.String" itemvalue="Python.search" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pdftext" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getPdfs" />
+        <item index="3" class="java.lang.String" itemvalue="Python.getPdfs (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.getFileName" />
       </list>
     </recent_temporary>
   </component>
@@ -773,7 +785,7 @@
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2165059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21918543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31618434" sideWeight="0.50428724" order="13" side_tool="true" content_ui="tabs" />
@@ -782,7 +794,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28617364" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3118971" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20900321" sideWeight="0.49571276" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31725615" sideWeight="0.49571276" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -837,15 +849,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/charts.html" />
-    <entry file="file://$PROJECT_DIR$/static/py/sse/getPdfs" />
-    <entry file="file://$PROJECT_DIR$/static/py/getFileName.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1053">
@@ -883,14 +886,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/7d2e8293/a30a3dc6-f21d-421c-89af-36737f2256f7/index_report">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -902,21 +905,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/jquery-ui/picker.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/img.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/jquery-ui/picker.png" />
+    <entry file="file://$PROJECT_DIR$/static/images/bg.png" />
+    <entry file="file://$PROJECT_DIR$/static/images/img.jpg" />
     <entry file="file://$PROJECT_DIR$/static/images/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -979,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,9 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,17 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,10 +1002,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/getInner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/py/getInner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/sse/600008_2017_n.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/py/pdfText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1039,26 +1056,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/py/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="434">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#40#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/py/getInner.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/py/pdfText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="-200">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>

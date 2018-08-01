@@ -6,11 +6,10 @@ from static.py import getInner
 # 去除txt文件中的空格及换行符
 def getText(name):
     getInner.getText(name)
-    try:
-        fp = open('static/data/' + name + '.txt', 'rt+')
-        text = fp.read().strip().replace("\n", "")
-        fp.seek(0)
-        fp.truncate()
-        fp.write(text)
-    except:
-        pass
+    fp = open('static/data/' + name + '.txt', 'rb+')
+    text = fp.read().decode('utf-8')
+    result = text.strip().replace("\n", "")
+    fp.seek(0)
+    fp.truncate()
+    fp.write(result.encode('utf-8'))
+
