@@ -8,6 +8,11 @@
         <link REL="SHORTCUT ICON" HREF="{% static "images/favicon.ico" %}"/>
         <link type="text/css" href="../static/bootstrap/css/bootstrap.css" rel="stylesheet">
         <link type="text/css" href="../static/bootstrap/css/font-awesome.css" rel="stylesheet">
+        <style>
+            .btn_a:hover{
+                text-decoration: none
+            }
+        </style>
     </head>
 
     <body>
@@ -37,15 +42,21 @@
                                 <td class="col-12">
                                     <div>
                                         <h6>
-                                            <a href="/static/data/{{ news.2 }}.txt">
+                                            <a href="result.html?filename={{ news.2 }}">
                                                     {% autoescape off %}
                                                         {{ news.0 }}
                                                     {% endautoescape off %}
                                             </a>
-                                            <a href="/static/report/{{ news.2 }}.pdf">
-                                                <button class="btn btn-danger btn-sm">
+                                            <a class="btn_a ml-2" href="filepage.html?filename={{ news.2 }}&filemode=pdf&fileset=report">
+                                                <button class="btn btn-danger btn-sm" href="filepage.html?filename={{ news.2 }}&filemode=pdf&fileset=report">
                                                     <i class="fa fa-file-pdf-o"></i>
                                                     PDF
+                                                </button>
+                                            </a>
+                                            <a class="btn_a ml-2" href="filepage.html?filename={{ news.2 }}&filemode=txt&fileset=data">
+                                                <button class="btn btn-dark btn-sm" href="filepage.html?filename={{ news.2 }}&filemode=txt&fileset=data">
+                                                    <i class="fa fa-file-text-o"></i>
+                                                    TXT
                                                 </button>
                                             </a>
                                         </h6>

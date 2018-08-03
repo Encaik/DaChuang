@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from index.models import user, report,new
+from index.models import user, report, new
 from django.core.paginator import Paginator
 from static.py import search
 
@@ -25,3 +25,26 @@ def searchPage(request):
         'str': search_word
     }
     return render(request, 'search.html', context)
+
+
+def contentPage(request):
+    if request.method == 'GET':
+        file_name = request.GET.get('filename')
+    text = report.objects.get(filename=file_name)
+    context = {
+        'text': text
+    }
+    return render(request, 'result.html', context)
+
+
+def filePage(request):
+    if request.method == 'GET':
+        file_name = request.GET.get('filename')
+        file_mode = request.GET.get('filemode')
+        file_path = request.GET.get('fileset')
+    context = {
+        'file_name': file_name,
+        'file_mode': file_mode,
+        'file_path': file_path
+    }
+    return render(request, 'filepage.html', context)

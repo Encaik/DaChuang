@@ -19,15 +19,17 @@ def parse(search_word, name):
             if len(_) > 40:
                 title = _[0:30]+'...'
                 content = _[0:110]+'...'
+                full = _
                 hl_title = re.sub(search_word, highlight, title)
                 hl_content = re.sub(search_word, highlight, content)
-                result.append([hl_title, hl_content, name])
+                result.append([hl_title, hl_content, name, full])
                 return result
             title = _
             content = _
+            full = _
             hl_title = re.sub(search_word, highlight, title)
             hl_content = re.sub(search_word, highlight, content)
-            result.append([hl_title, hl_content, name])
+            result.append([hl_title, hl_content, name, full])
         return result
     except:
         result = []

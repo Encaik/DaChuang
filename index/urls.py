@@ -6,4 +6,6 @@ urlpatterns = [
     path('', views.indexPage),
     path('index.html', views.indexPage),
     path('search.html', views.searchPage),
+    path('result.html', views.contentPage),
+    path('filepage.html', views.filePage),
 ]
