@@ -4,7 +4,11 @@ from django.core.paginator import Paginator
 from static.py import search
 
 
-def index(request):
+def indexPage(request):
+    return render(request, 'index.html')
+
+
+def searchPage(request):
     if request.method == 'GET':
         str = request.GET.get('input')
         if str == '':
@@ -20,4 +24,4 @@ def index(request):
         'contacts': contacts,
         'str': str
     }
-    return render(request, 'index.html', context)
+    return render(request, 'search.html', context)

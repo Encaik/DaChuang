@@ -1,0 +1,69 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>上市公司年报信息搜索平台</title>
+        <link REL="SHORTCUT ICON" HREF="{% static "images/favicon.ico" %}"/>
+        <link type="text/css" href="../static/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link type="text/css" href="../static/bootstrap/css/font-awesome.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="body" class="p-4">
+            <div class="col-6">
+                <div id="search" class="mb-4 mt-2">
+                    <form action="search.html" method="get">
+                        <div class="input-group">
+                            <input id="searchInput" type="text" class="form-control" name="input" value="{{ str }}" placeholder="{{ str }}">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit" id="searchButton">
+                                    <i class="fa fa-search"></i>
+                                    搜索
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="context">
+                <div id="text" class="mr-4 ml-4">
+                    <table class="table">
+                        {% for news in contacts %}
+                            <tr class="row">
+                                <td class="col-8">
+                                    <a href="/static/data/{{ news.1 }}.txt">{% autoescape off %}{{ news.0 }}{% endautoescape off %}</a>
+                                    <a href="/static/report/{{ news.1 }}.pdf">
+                                        <i class="ml-1 fa fa-file-pdf-o"></i>
+                                    </a>
+                                </td>
+                                <td class="col-4">{{ news.2 }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                <div id="page" class="ml-4">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            {% if contacts.has_previous %}
+                                <li class="page-item"><a class="page-link" href="?input={{ str }}&page=1">&laquo;首页</a></li>
+                                <li class="page-item"><a class="page-link" href="?input={{ str }}&page={{ contacts.previous_page_number }}">{{ contacts.previous_page_number }}</a></li>
+                            {% endif %}
+                            {% if contacts %}
+                                <li class="page-item active"><a class="page-link" href="#">{{ contacts.number }}</a></li>
+                            {% endif %}
+                            {% if contacts.has_next %}
+                                <li class="page-item"><a class="page-link" href="?input={{ str }}&page={{ contacts.next_page_number }}">{{ contacts.next_page_number }}</a></li>
+                                <li class="page-item"><a class="page-link" href="?input={{ str }}&page={{ contacts.paginator.num_pages }}">尾页&raquo;</a></li>
+                            {% endif %}
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script src="../static/jquery/jquery-3.3.1.min.js"></script>
+        <script src="../static/jquery/popper.min.js"></script>
+        <script src="../static/bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>

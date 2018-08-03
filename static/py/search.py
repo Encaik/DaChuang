@@ -9,10 +9,10 @@ import re
 # 关键词查找并返回结果字符串
 def parse(str, name):
     try:
-        # pdfText.getText(name)
+        pdfText.getText(name)
         fp = open('static/data/' + name + '.txt', 'rb')
         inner = fp.read().decode('utf-8')
-        text1 = re.findall('[\u4e00-\u9fa5, 0-z]{5,50}' + str + '[\u4e00-\u9fa5, 0-z]{5,50}', inner)
+        text1 = re.findall(r'[^\u3002]{5,20}' + str + r'[^\u3002]{5,20}', inner)
         text2 = sorted(set(text1), key=text1.index)
         highlight = "<b><font color='red'>" + str + "</font></b>"
         result = []
