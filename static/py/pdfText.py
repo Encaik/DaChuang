@@ -8,7 +8,7 @@ def getText(name):
     # getInner.getText(name)
     fp = open('static/data/' + name + '.txt', 'rb+')
     text = fp.read().decode('utf-8')
-    result = text.replace('\n', '')
+    result = text.strip()
     fp.seek(0)
     fp.truncate()
     fp.write(result.encode('utf-8'))
