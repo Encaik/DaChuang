@@ -10,17 +10,20 @@
         <link type="text/css" href="../static/bootstrap/css/font-awesome.css" rel="stylesheet">
     </head>
 
-    <body>
-        <div id="content" class="d-flex flex-column justify-content-center mt-5 p-5">
-            <div class="d-flex justify-content-center mt-5">
+    <body class="pt-lg-5">
+        <div id="content" class="d-flex flex-column justify-content-center mt-lg-5 p-lg-5">
+            <div class="d-flex justify-content-center mt-lg-5">
                 <p class="display-3 mt-5">上市公司年报信息搜索平台</p>
             </div>
             <div id="search" class="d-flex justify-content-center mt-3">
                 <form action="search.html" method="get" class="col-8">
-                    <div class="input-group">
+                    <div class="input-group input-group-lg">
                         <input id="searchInput" type="text" class="form-control" name="input" value="{{ str }}" placeholder="{{ str }}">
                         <div class="input-group-append">
-                            <button class="btn btn-primary" type="submit" id="searchButton">搜索</button>
+                            <button class="btn btn-primary" type="submit" id="searchButton">
+                                <i class="fa fa-search"></i>
+                                搜索
+                            </button>
                         </div>
                     </div>
                 </form>

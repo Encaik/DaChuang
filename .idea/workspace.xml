@@ -3,9 +3,342 @@
   <component name="ChangeListManager">
     <list default="true" id="0eede754-5f7e-41db-b39d-f5999a8056ab" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/views.py" afterPath="$PROJECT_DIR$/index/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600008_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600008_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600008_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600008_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600016_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600016_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600022_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600022_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600022_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600022_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600058_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600058_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600058_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600058_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600059_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600059_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600059_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600059_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600068_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600068_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600068_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600068_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600077_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600077_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600077_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600077_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600101_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600101_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600101_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600101_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600104_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600104_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600104_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600104_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600115_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600115_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600125_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600125_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600125_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600125_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600163_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600163_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600163_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600163_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600168_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600168_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600168_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600168_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600187_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600187_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600187_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600187_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600190_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600190_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600190_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600190_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600218_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600218_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600218_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600218_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600219_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600219_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600219_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600219_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600226_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600226_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600226_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600226_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600235_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600235_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600235_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600235_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600249_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600249_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600249_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600249_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600252_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600252_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600252_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600252_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600258_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600258_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600258_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600258_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600259_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600259_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600259_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600259_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600272_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600272_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600272_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600272_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600282_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600282_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600282_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600282_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600283_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600283_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600283_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600283_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600301_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600301_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600301_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600301_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600306_2017_nA.txt" afterPath="$PROJECT_DIR$/static/data/sse/600306_2017_nA.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600320_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600320_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600320_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600320_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600340_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600340_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600340_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600340_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600353_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600353_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600360_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600360_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600360_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600360_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600382_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600382_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600382_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600382_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600396_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600396_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600396_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600396_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600403_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600403_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600403_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600403_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600416_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600416_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600416_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600416_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600422_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600422_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600422_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600422_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600423_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600423_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600423_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600423_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600426_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600426_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600426_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600426_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600438_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600438_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600438_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600438_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600452_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600452_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600452_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600452_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600507_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600507_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600507_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600507_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600516_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600516_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600516_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600516_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600527_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600527_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600527_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600527_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600536_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600536_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600536_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600536_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600549_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600549_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600549_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600549_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600556_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600556_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600556_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600556_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600571_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600571_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600571_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600571_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600576_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600576_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600576_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600576_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600582_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600582_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600582_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600582_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600611_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600611_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600611_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600611_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600621_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600621_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600621_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600621_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600635_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600635_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600635_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600635_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600643_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600643_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600643_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600643_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600658_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600658_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600658_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600658_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600663_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600663_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600663_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600663_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600664_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600664_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600664_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600664_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600675_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600675_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600675_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600675_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600678_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600678_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600678_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600678_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600685_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600685_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600685_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600685_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600692_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600692_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600692_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600692_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600696_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600696_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600696_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600696_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600707_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600707_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600707_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600707_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600722_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600722_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600722_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600722_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600724_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600724_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600724_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600724_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600733_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600733_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600733_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600733_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600735_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600735_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600735_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600735_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600744_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600744_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600744_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600744_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600750_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600750_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600750_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600750_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600753_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600753_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600753_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600753_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600754_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600754_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600767_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600767_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600767_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600767_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600769_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600769_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600769_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600769_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600775_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600775_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600775_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600775_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600784_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600784_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600784_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600784_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600785_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600785_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600785_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600785_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600793_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600793_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600793_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600793_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600803_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600803_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600803_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600803_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600805_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600805_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600805_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600805_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600816_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600816_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600816_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600816_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600829_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600829_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600829_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600829_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600844_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600844_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600844_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600844_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600875_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600875_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600875_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600875_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600885_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600885_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600885_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600885_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600889_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600889_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600889_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600889_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600893_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600893_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600893_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600893_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600908_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600908_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600908_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600908_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600958_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600958_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600958_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600958_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600961_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/600961_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/600961_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/600961_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601005_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/601005_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601005_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/601005_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601016_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/601016_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601016_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/601016_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601018_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/601018_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601018_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/601018_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601313_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/601313_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/601313_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/601313_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603077_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603077_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603077_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603077_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603078_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603078_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603078_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603078_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603078_2017_nzyA.txt" afterPath="$PROJECT_DIR$/static/data/sse/603078_2017_nzyA.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603127_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603127_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603127_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603127_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603225_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603225_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603225_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603225_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603330_2017_3A.txt" afterPath="$PROJECT_DIR$/static/data/sse/603330_2017_3A.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603456_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603456_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603456_2017_nA.txt" afterPath="$PROJECT_DIR$/static/data/sse/603456_2017_nA.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603456_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603456_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603456_2017_nzyA.txt" afterPath="$PROJECT_DIR$/static/data/sse/603456_2017_nzyA.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603618_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603618_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603618_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603618_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603626_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603626_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603626_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603626_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603707_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603707_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603707_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603707_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603730_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603730_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603730_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603730_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603826_2017_n.txt" afterPath="$PROJECT_DIR$/static/data/sse/603826_2017_n.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/sse/603826_2017_nzy.txt" afterPath="$PROJECT_DIR$/static/data/sse/603826_2017_nzy.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/0140faf7-0a02-4538-9851-8878071ea324.txt" afterPath="$PROJECT_DIR$/static/data/szse/0140faf7-0a02-4538-9851-8878071ea324.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/036a4ffa-a177-41aa-89ae-30e15da61e97.txt" afterPath="$PROJECT_DIR$/static/data/szse/036a4ffa-a177-41aa-89ae-30e15da61e97.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/03c1e065-71ca-4461-a4ee-efb584103190.txt" afterPath="$PROJECT_DIR$/static/data/szse/03c1e065-71ca-4461-a4ee-efb584103190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/06632064-24f8-452b-acc2-02f106b99807.txt" afterPath="$PROJECT_DIR$/static/data/szse/06632064-24f8-452b-acc2-02f106b99807.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/085aaf90-1b72-40c7-b69a-2b1c7f74aac5.txt" afterPath="$PROJECT_DIR$/static/data/szse/085aaf90-1b72-40c7-b69a-2b1c7f74aac5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/0997ad1b-a290-4cdb-a415-a9149383f9db.txt" afterPath="$PROJECT_DIR$/static/data/szse/0997ad1b-a290-4cdb-a415-a9149383f9db.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/0a02675c-8688-4f9b-a5b7-ee5cf346fc6d.txt" afterPath="$PROJECT_DIR$/static/data/szse/0a02675c-8688-4f9b-a5b7-ee5cf346fc6d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/10833610-2c5b-41a7-9bbe-8643eaa48725.txt" afterPath="$PROJECT_DIR$/static/data/szse/10833610-2c5b-41a7-9bbe-8643eaa48725.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/10c12503-a5bf-445c-86db-79edd05849bd.txt" afterPath="$PROJECT_DIR$/static/data/szse/10c12503-a5bf-445c-86db-79edd05849bd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/12e07944-f865-411c-b7e5-7f6bf1e28201.txt" afterPath="$PROJECT_DIR$/static/data/szse/12e07944-f865-411c-b7e5-7f6bf1e28201.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/16645d84-bedc-4aa6-bdcc-138a009396b4.txt" afterPath="$PROJECT_DIR$/static/data/szse/16645d84-bedc-4aa6-bdcc-138a009396b4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/166a0579-d6cb-464d-a9dc-535d0b413ec0.txt" afterPath="$PROJECT_DIR$/static/data/szse/166a0579-d6cb-464d-a9dc-535d0b413ec0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/17e8b25d-5b91-4b6d-9d5f-a35d23845115.txt" afterPath="$PROJECT_DIR$/static/data/szse/17e8b25d-5b91-4b6d-9d5f-a35d23845115.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/1875ca17-0efc-4843-9ecb-f8b3bbf58c38.txt" afterPath="$PROJECT_DIR$/static/data/szse/1875ca17-0efc-4843-9ecb-f8b3bbf58c38.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/18a05b4d-4008-4693-91ae-0886b6089a53.txt" afterPath="$PROJECT_DIR$/static/data/szse/18a05b4d-4008-4693-91ae-0886b6089a53.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/19672fa4-b246-430d-97f5-b52c427c87b2.txt" afterPath="$PROJECT_DIR$/static/data/szse/19672fa4-b246-430d-97f5-b52c427c87b2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/1bbdbd72-ca33-48b0-8cc9-4e393e3ecf06.txt" afterPath="$PROJECT_DIR$/static/data/szse/1bbdbd72-ca33-48b0-8cc9-4e393e3ecf06.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/1f493ab2-285c-4195-94fb-6d3698385781.txt" afterPath="$PROJECT_DIR$/static/data/szse/1f493ab2-285c-4195-94fb-6d3698385781.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/23448740-2fb2-46a9-8a9e-dcfcfcd6aba7.txt" afterPath="$PROJECT_DIR$/static/data/szse/23448740-2fb2-46a9-8a9e-dcfcfcd6aba7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/2663e8ed-e894-4e98-9ff2-0ec2f1c39bcc.txt" afterPath="$PROJECT_DIR$/static/data/szse/2663e8ed-e894-4e98-9ff2-0ec2f1c39bcc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/2aa94cb8-6de9-4083-8edd-fd352888e84f.txt" afterPath="$PROJECT_DIR$/static/data/szse/2aa94cb8-6de9-4083-8edd-fd352888e84f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/2d820689-a845-403c-b653-64dced7d760b.txt" afterPath="$PROJECT_DIR$/static/data/szse/2d820689-a845-403c-b653-64dced7d760b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/2f2923f5-056c-4822-b56e-eed0de03037e.txt" afterPath="$PROJECT_DIR$/static/data/szse/2f2923f5-056c-4822-b56e-eed0de03037e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/2f7d9685-9c7e-4f28-91b8-037bbfb617af.txt" afterPath="$PROJECT_DIR$/static/data/szse/2f7d9685-9c7e-4f28-91b8-037bbfb617af.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/343054a4-768b-46e7-830a-ccdcfbaded15.txt" afterPath="$PROJECT_DIR$/static/data/szse/343054a4-768b-46e7-830a-ccdcfbaded15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/37ff0061-8d25-4280-a71a-cdb60deaeca3.txt" afterPath="$PROJECT_DIR$/static/data/szse/37ff0061-8d25-4280-a71a-cdb60deaeca3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/3842e8ca-ee4f-4dd5-9801-ef5da5bd738d.txt" afterPath="$PROJECT_DIR$/static/data/szse/3842e8ca-ee4f-4dd5-9801-ef5da5bd738d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/386facfd-8787-45f7-8263-216d3b334223.txt" afterPath="$PROJECT_DIR$/static/data/szse/386facfd-8787-45f7-8263-216d3b334223.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/3bcb3411-2f0a-4f43-981b-09c21ce48ce9.txt" afterPath="$PROJECT_DIR$/static/data/szse/3bcb3411-2f0a-4f43-981b-09c21ce48ce9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/3ca29669-b87a-4be5-a998-c8d6bbd6a43b.txt" afterPath="$PROJECT_DIR$/static/data/szse/3ca29669-b87a-4be5-a998-c8d6bbd6a43b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/3d8b9624-c3a7-4cbb-9ab8-bdff97f13a5e.txt" afterPath="$PROJECT_DIR$/static/data/szse/3d8b9624-c3a7-4cbb-9ab8-bdff97f13a5e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/3f747ed1-c593-4a20-9de2-cd5f04ff9aaf.txt" afterPath="$PROJECT_DIR$/static/data/szse/3f747ed1-c593-4a20-9de2-cd5f04ff9aaf.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/40a00df1-b183-428b-bc27-db0a48b46ab9.txt" afterPath="$PROJECT_DIR$/static/data/szse/40a00df1-b183-428b-bc27-db0a48b46ab9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/40c4d1d8-fc9c-44f5-9f0b-534bdb77ba3b.txt" afterPath="$PROJECT_DIR$/static/data/szse/40c4d1d8-fc9c-44f5-9f0b-534bdb77ba3b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/4114610f-d065-4159-bb17-c858b4b57a58.txt" afterPath="$PROJECT_DIR$/static/data/szse/4114610f-d065-4159-bb17-c858b4b57a58.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/41723f85-e614-4550-be70-ddfd768b0531.txt" afterPath="$PROJECT_DIR$/static/data/szse/41723f85-e614-4550-be70-ddfd768b0531.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/45277cf7-baf5-4297-ac56-b6e787d56038.txt" afterPath="$PROJECT_DIR$/static/data/szse/45277cf7-baf5-4297-ac56-b6e787d56038.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/484e2035-cd2f-4762-af19-222f8f620888.txt" afterPath="$PROJECT_DIR$/static/data/szse/484e2035-cd2f-4762-af19-222f8f620888.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/4a742d8c-235a-49e7-bb94-ad5ebe306ee8.txt" afterPath="$PROJECT_DIR$/static/data/szse/4a742d8c-235a-49e7-bb94-ad5ebe306ee8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/4a76c688-4617-4170-a3a8-746089e8a82f.txt" afterPath="$PROJECT_DIR$/static/data/szse/4a76c688-4617-4170-a3a8-746089e8a82f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/4bef5ead-eddc-42d6-8093-ace4f595bb9d.txt" afterPath="$PROJECT_DIR$/static/data/szse/4bef5ead-eddc-42d6-8093-ace4f595bb9d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/4da2f941-cdc7-4b55-ba81-a7266470cf32.txt" afterPath="$PROJECT_DIR$/static/data/szse/4da2f941-cdc7-4b55-ba81-a7266470cf32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5014866a-854e-44c1-bc1b-41e5b51936ff.txt" afterPath="$PROJECT_DIR$/static/data/szse/5014866a-854e-44c1-bc1b-41e5b51936ff.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/508c46e8-f01b-4f9a-a994-e2d66bc92e7a.txt" afterPath="$PROJECT_DIR$/static/data/szse/508c46e8-f01b-4f9a-a994-e2d66bc92e7a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/509b089a-9144-4df3-b615-c2cbfb5715c8.txt" afterPath="$PROJECT_DIR$/static/data/szse/509b089a-9144-4df3-b615-c2cbfb5715c8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/52be0857-ee0a-4fb2-aed2-e4df0f5edc57.txt" afterPath="$PROJECT_DIR$/static/data/szse/52be0857-ee0a-4fb2-aed2-e4df0f5edc57.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5359ff16-f704-4bce-ad67-1699def926a9.txt" afterPath="$PROJECT_DIR$/static/data/szse/5359ff16-f704-4bce-ad67-1699def926a9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/536f07b1-5518-49b8-8306-eae7a87bf6c2.txt" afterPath="$PROJECT_DIR$/static/data/szse/536f07b1-5518-49b8-8306-eae7a87bf6c2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/53826237-572d-42d2-996f-54ca3447e618.txt" afterPath="$PROJECT_DIR$/static/data/szse/53826237-572d-42d2-996f-54ca3447e618.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/54138deb-0a1f-4163-8f1d-addfcf199e25.txt" afterPath="$PROJECT_DIR$/static/data/szse/54138deb-0a1f-4163-8f1d-addfcf199e25.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5753ffe1-5a5c-4120-8cc6-b7d066512a75.txt" afterPath="$PROJECT_DIR$/static/data/szse/5753ffe1-5a5c-4120-8cc6-b7d066512a75.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/579d80fb-5e08-4aee-8785-4f67f5b24078.txt" afterPath="$PROJECT_DIR$/static/data/szse/579d80fb-5e08-4aee-8785-4f67f5b24078.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/58b5e64b-2f8e-4675-a5b9-054ec08839e6.txt" afterPath="$PROJECT_DIR$/static/data/szse/58b5e64b-2f8e-4675-a5b9-054ec08839e6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5949096b-9072-4d1e-a8a0-6d1c142f12f2.txt" afterPath="$PROJECT_DIR$/static/data/szse/5949096b-9072-4d1e-a8a0-6d1c142f12f2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5a9dd601-396f-4277-8bd5-13ee78310924.txt" afterPath="$PROJECT_DIR$/static/data/szse/5a9dd601-396f-4277-8bd5-13ee78310924.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5bffaa0c-4411-4547-ae9a-84d5fc19bff9.txt" afterPath="$PROJECT_DIR$/static/data/szse/5bffaa0c-4411-4547-ae9a-84d5fc19bff9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/5d144173-7c1f-49c2-b0f8-5d5317f7d6a7.txt" afterPath="$PROJECT_DIR$/static/data/szse/5d144173-7c1f-49c2-b0f8-5d5317f7d6a7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/6121746d-cd20-42e1-858a-2838f718d58b.txt" afterPath="$PROJECT_DIR$/static/data/szse/6121746d-cd20-42e1-858a-2838f718d58b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/62793995-db42-4e97-a781-53fcc02b4da9.txt" afterPath="$PROJECT_DIR$/static/data/szse/62793995-db42-4e97-a781-53fcc02b4da9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/669e25ba-be68-41d4-8e4e-c45c6473ea68.txt" afterPath="$PROJECT_DIR$/static/data/szse/669e25ba-be68-41d4-8e4e-c45c6473ea68.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/6930ca8e-73fb-45f0-939e-4b4f3fe9803a.txt" afterPath="$PROJECT_DIR$/static/data/szse/6930ca8e-73fb-45f0-939e-4b4f3fe9803a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/6c737f2c-539c-40fa-ab1e-34062f568073.txt" afterPath="$PROJECT_DIR$/static/data/szse/6c737f2c-539c-40fa-ab1e-34062f568073.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/6eec84f3-3160-48af-8dbe-bcf131ea2887.txt" afterPath="$PROJECT_DIR$/static/data/szse/6eec84f3-3160-48af-8dbe-bcf131ea2887.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/786db315-66b2-4273-bcb6-8e01ea063b04.txt" afterPath="$PROJECT_DIR$/static/data/szse/786db315-66b2-4273-bcb6-8e01ea063b04.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/7985115d-1c4a-4239-af16-4fa7b30fa6c3.txt" afterPath="$PROJECT_DIR$/static/data/szse/7985115d-1c4a-4239-af16-4fa7b30fa6c3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/7b82c52a-339b-46f8-8e0a-791f846adfec.txt" afterPath="$PROJECT_DIR$/static/data/szse/7b82c52a-339b-46f8-8e0a-791f846adfec.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/8243df0f-c7b0-464a-8f3e-913313a98047.txt" afterPath="$PROJECT_DIR$/static/data/szse/8243df0f-c7b0-464a-8f3e-913313a98047.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/824f6376-2e4e-466b-b0a0-14c5bcd45176.txt" afterPath="$PROJECT_DIR$/static/data/szse/824f6376-2e4e-466b-b0a0-14c5bcd45176.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/82e6308f-fe86-4ef8-8052-7574a5576b1e.txt" afterPath="$PROJECT_DIR$/static/data/szse/82e6308f-fe86-4ef8-8052-7574a5576b1e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/85bb9e74-e868-4dba-afb2-0e34dc8ea5ce.txt" afterPath="$PROJECT_DIR$/static/data/szse/85bb9e74-e868-4dba-afb2-0e34dc8ea5ce.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/85fe3295-d612-4680-80e2-ea7c42799ec2.txt" afterPath="$PROJECT_DIR$/static/data/szse/85fe3295-d612-4680-80e2-ea7c42799ec2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/896dfe44-0732-4dfb-9e52-b213a7add1e7.txt" afterPath="$PROJECT_DIR$/static/data/szse/896dfe44-0732-4dfb-9e52-b213a7add1e7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/8dceb8b0-4837-4c5e-b7d9-e23c04927370.txt" afterPath="$PROJECT_DIR$/static/data/szse/8dceb8b0-4837-4c5e-b7d9-e23c04927370.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/8e321202-8fc5-4571-bd76-0ac9ebcc7707.txt" afterPath="$PROJECT_DIR$/static/data/szse/8e321202-8fc5-4571-bd76-0ac9ebcc7707.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/90054b12-ac19-4437-99d3-63804d0e7ec4.txt" afterPath="$PROJECT_DIR$/static/data/szse/90054b12-ac19-4437-99d3-63804d0e7ec4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/925779e8-1de7-4487-8223-0f0cb44ccb50.txt" afterPath="$PROJECT_DIR$/static/data/szse/925779e8-1de7-4487-8223-0f0cb44ccb50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/96d2fdcb-75e2-4bff-be68-381eea0af28c.txt" afterPath="$PROJECT_DIR$/static/data/szse/96d2fdcb-75e2-4bff-be68-381eea0af28c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/9be454f3-087d-43ca-9bf4-46ff412e2e09.txt" afterPath="$PROJECT_DIR$/static/data/szse/9be454f3-087d-43ca-9bf4-46ff412e2e09.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/a0f5a87c-e989-4524-bb3f-33ec3ea16a10.txt" afterPath="$PROJECT_DIR$/static/data/szse/a0f5a87c-e989-4524-bb3f-33ec3ea16a10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/a9e92a4e-06e4-4896-a279-ef6c9d3b6af4.txt" afterPath="$PROJECT_DIR$/static/data/szse/a9e92a4e-06e4-4896-a279-ef6c9d3b6af4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/aa3891db-bc19-4354-ab51-0a0d074c2154.txt" afterPath="$PROJECT_DIR$/static/data/szse/aa3891db-bc19-4354-ab51-0a0d074c2154.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/afbe840d-ceb2-4321-ba9f-6927c5921db7.txt" afterPath="$PROJECT_DIR$/static/data/szse/afbe840d-ceb2-4321-ba9f-6927c5921db7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/b133077e-e8ca-4ba8-b92e-4c8c0f9ea804.txt" afterPath="$PROJECT_DIR$/static/data/szse/b133077e-e8ca-4ba8-b92e-4c8c0f9ea804.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/b1565cf8-da51-4a1e-8ca9-9725e88fe201.txt" afterPath="$PROJECT_DIR$/static/data/szse/b1565cf8-da51-4a1e-8ca9-9725e88fe201.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/b1905a75-6914-422c-8cc8-89afc104bcdd.txt" afterPath="$PROJECT_DIR$/static/data/szse/b1905a75-6914-422c-8cc8-89afc104bcdd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/b33bd3be-032c-42a5-9d25-a0f30979cb64.txt" afterPath="$PROJECT_DIR$/static/data/szse/b33bd3be-032c-42a5-9d25-a0f30979cb64.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/b400f30a-c73b-45aa-80a5-c559e8f810bc.txt" afterPath="$PROJECT_DIR$/static/data/szse/b400f30a-c73b-45aa-80a5-c559e8f810bc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/b79580fc-6581-4b01-980a-ebd77cda0bb9.txt" afterPath="$PROJECT_DIR$/static/data/szse/b79580fc-6581-4b01-980a-ebd77cda0bb9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/bd297b0b-179f-4c52-a637-0f00c6616236.txt" afterPath="$PROJECT_DIR$/static/data/szse/bd297b0b-179f-4c52-a637-0f00c6616236.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/bd4491f4-29d5-4949-9826-3660e9aad0af.txt" afterPath="$PROJECT_DIR$/static/data/szse/bd4491f4-29d5-4949-9826-3660e9aad0af.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/bedf387f-fbbb-40a7-931c-90f88e533ac3.txt" afterPath="$PROJECT_DIR$/static/data/szse/bedf387f-fbbb-40a7-931c-90f88e533ac3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/bf55a785-d768-4edf-9ee6-f00414433389.txt" afterPath="$PROJECT_DIR$/static/data/szse/bf55a785-d768-4edf-9ee6-f00414433389.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c13ea885-4e57-4db4-891e-f3bb7d1686d8.txt" afterPath="$PROJECT_DIR$/static/data/szse/c13ea885-4e57-4db4-891e-f3bb7d1686d8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c1d69598-f784-4549-b7d1-e258998eb0cc.txt" afterPath="$PROJECT_DIR$/static/data/szse/c1d69598-f784-4549-b7d1-e258998eb0cc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c322622b-c78d-4192-b8f6-81a129834fcc.txt" afterPath="$PROJECT_DIR$/static/data/szse/c322622b-c78d-4192-b8f6-81a129834fcc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c48c7475-28cf-4863-937f-cd24cba906ed.txt" afterPath="$PROJECT_DIR$/static/data/szse/c48c7475-28cf-4863-937f-cd24cba906ed.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c5776928-75ca-4652-acd2-8ae7efc8e171.txt" afterPath="$PROJECT_DIR$/static/data/szse/c5776928-75ca-4652-acd2-8ae7efc8e171.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/c77344aa-fc40-425e-aa9c-7a0f0a596bd0.txt" afterPath="$PROJECT_DIR$/static/data/szse/c77344aa-fc40-425e-aa9c-7a0f0a596bd0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/ca53a0be-4927-4ed0-a8b0-f819f3def421.txt" afterPath="$PROJECT_DIR$/static/data/szse/ca53a0be-4927-4ed0-a8b0-f819f3def421.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/cb4c13ba-a839-45fb-874d-c43262310d4c.txt" afterPath="$PROJECT_DIR$/static/data/szse/cb4c13ba-a839-45fb-874d-c43262310d4c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/cbe31f60-2cec-4d5f-96f6-4c0896bb4b73.txt" afterPath="$PROJECT_DIR$/static/data/szse/cbe31f60-2cec-4d5f-96f6-4c0896bb4b73.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/cdc9d886-138b-4727-9b38-167f93067e81.txt" afterPath="$PROJECT_DIR$/static/data/szse/cdc9d886-138b-4727-9b38-167f93067e81.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/cf7249d3-5078-4c96-9e24-74deecf40cff.txt" afterPath="$PROJECT_DIR$/static/data/szse/cf7249d3-5078-4c96-9e24-74deecf40cff.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/cfcfb0d8-c7b3-48cb-be45-36e728f02fc5.txt" afterPath="$PROJECT_DIR$/static/data/szse/cfcfb0d8-c7b3-48cb-be45-36e728f02fc5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/d9189cf5-4012-4548-87b0-5e19ba3a2888.txt" afterPath="$PROJECT_DIR$/static/data/szse/d9189cf5-4012-4548-87b0-5e19ba3a2888.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/da2d488b-cf98-4849-b98a-0ebf27a5ce06.txt" afterPath="$PROJECT_DIR$/static/data/szse/da2d488b-cf98-4849-b98a-0ebf27a5ce06.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/da5cfd1b-f554-4140-89a2-7e54e190d9e0.txt" afterPath="$PROJECT_DIR$/static/data/szse/da5cfd1b-f554-4140-89a2-7e54e190d9e0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/dc0b8ceb-d556-4a2a-bcff-250c7b1e002b.txt" afterPath="$PROJECT_DIR$/static/data/szse/dc0b8ceb-d556-4a2a-bcff-250c7b1e002b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/dcf26d23-10e6-44b9-8512-d69c7c6b4f32.txt" afterPath="$PROJECT_DIR$/static/data/szse/dcf26d23-10e6-44b9-8512-d69c7c6b4f32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/df0e7803-7897-4cbd-96c3-f131b45112c0.txt" afterPath="$PROJECT_DIR$/static/data/szse/df0e7803-7897-4cbd-96c3-f131b45112c0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/e23e2117-3ce1-4978-969b-3d99a027bdff.txt" afterPath="$PROJECT_DIR$/static/data/szse/e23e2117-3ce1-4978-969b-3d99a027bdff.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/e3b8358e-f563-4c0b-97ac-33ae47ebcc5d.txt" afterPath="$PROJECT_DIR$/static/data/szse/e3b8358e-f563-4c0b-97ac-33ae47ebcc5d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/e567d290-a354-4e95-b0d0-620431ff7740.txt" afterPath="$PROJECT_DIR$/static/data/szse/e567d290-a354-4e95-b0d0-620431ff7740.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/e90bd277-6e1c-4fdc-b869-f9e80f57b864.txt" afterPath="$PROJECT_DIR$/static/data/szse/e90bd277-6e1c-4fdc-b869-f9e80f57b864.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/e95d5eae-6379-4a16-8e9f-2e479f9279bb.txt" afterPath="$PROJECT_DIR$/static/data/szse/e95d5eae-6379-4a16-8e9f-2e479f9279bb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/e985ddc3-ee80-4136-90eb-8697f441f828.txt" afterPath="$PROJECT_DIR$/static/data/szse/e985ddc3-ee80-4136-90eb-8697f441f828.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/ea3199f3-901a-4d24-aa8d-c9702261853d.txt" afterPath="$PROJECT_DIR$/static/data/szse/ea3199f3-901a-4d24-aa8d-c9702261853d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/ecaa95dc-3f6c-46a1-bdd0-0264e763e633.txt" afterPath="$PROJECT_DIR$/static/data/szse/ecaa95dc-3f6c-46a1-bdd0-0264e763e633.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/ed742691-42a3-4e0c-abe7-5825d91ce6d4.txt" afterPath="$PROJECT_DIR$/static/data/szse/ed742691-42a3-4e0c-abe7-5825d91ce6d4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/f00b23ad-c491-426b-a36b-dcace04fc153.txt" afterPath="$PROJECT_DIR$/static/data/szse/f00b23ad-c491-426b-a36b-dcace04fc153.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/f7e88b55-c704-4985-bbfe-d8a7eef41d35.txt" afterPath="$PROJECT_DIR$/static/data/szse/f7e88b55-c704-4985-bbfe-d8a7eef41d35.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/f8a2851b-3195-4026-b64e-0273d2fc9b25.txt" afterPath="$PROJECT_DIR$/static/data/szse/f8a2851b-3195-4026-b64e-0273d2fc9b25.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/f93997af-fe21-4ea4-8a4f-2355c3da27f1.txt" afterPath="$PROJECT_DIR$/static/data/szse/f93997af-fe21-4ea4-8a4f-2355c3da27f1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/f9bfb183-916a-4d3c-93db-c5684c292915.txt" afterPath="$PROJECT_DIR$/static/data/szse/f9bfb183-916a-4d3c-93db-c5684c292915.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/szse/feb4df60-642a-4045-a511-ac166db75553.txt" afterPath="$PROJECT_DIR$/static/data/szse/feb4df60-642a-4045-a511-ac166db75553.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/pdfText.py" afterPath="$PROJECT_DIR$/static/py/pdfText.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/py/search.py" afterPath="$PROJECT_DIR$/static/py/search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/search.html" afterPath="$PROJECT_DIR$/templates/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,11 +401,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="650">
+              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -93,8 +426,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="498">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -103,8 +436,8 @@
       <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="299">
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -113,21 +446,11 @@
       <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/py/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+            <state relative-caret-position="575">
+              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding>
-                <element signature="e#40#49#0" expanded="true" />
+                <element signature="e#41#83#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pdfText.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/py/pdfText.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -178,13 +501,13 @@
         <option value="$PROJECT_DIR$/static/py/getInner.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/index/views.py" />
         <option value="$PROJECT_DIR$/index/urls.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/search.html" />
         <option value="$PROJECT_DIR$/static/data/sse/600008_2017_n.txt" />
-        <option value="$PROJECT_DIR$/static/py/search.py" />
         <option value="$PROJECT_DIR$/static/py/pdfText.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/py/search.py" />
+        <option value="$PROJECT_DIR$/templates/search.html" />
+        <option value="$PROJECT_DIR$/index/views.py" />
       </list>
     </option>
   </component>
@@ -215,8 +538,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,28 +610,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaChuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -345,6 +644,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -771,9 +1072,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22775991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23740621" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31618434" sideWeight="0.50428724" order="13" side_tool="true" content_ui="tabs" />
@@ -799,18 +1100,18 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5937835" sideWeight="0.5021436" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31618434" sideWeight="0.50428724" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28617364" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3118971" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4062165" sideWeight="0.49785638" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3118971" sideWeight="0.49571276" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23740621" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -856,14 +1157,14 @@
     <entry file="file://$PROJECT_DIR$/static/data/sse/600135_2017_nzy.txt" />
     <entry file="file://$PROJECT_DIR$/static/data/sse/600141_2017_nzy.txt" />
     <entry file="dbDummy://dbtable:/7d2e8293/a30a3dc6-f21d-421c-89af-36737f2256f7/index_report">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1007,16 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/data/sse/600008_2017_n.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1024,37 +1315,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/py/search.py">
+    <entry file="file://$PROJECT_DIR$/static/py/pdfText.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-          <folding>
-            <element signature="e#40#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="498">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/py/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#41#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="299">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/py/pdfText.py">
+    <entry file="file://$PROJECT_DIR$/index/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="650">
+          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

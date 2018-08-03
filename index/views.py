@@ -10,18 +10,18 @@ def indexPage(request):
 
 def searchPage(request):
     if request.method == 'GET':
-        str = request.GET.get('input')
-        if str == '':
+        search_word = request.GET.get('input')
+        if search_word == '':
             return render(request, 'index.html')
-        if str is None:
+        if search_word is None:
             return render(request, 'index.html')
-    text = search.finish(str)
+    text = search.finish(search_word)
     page = request.GET.get('page', 1)
     cus_list = text
     paginator = Paginator(cus_list, 25)
     contacts = paginator.get_page(page)
     context = {
         'contacts': contacts,
-        'str': str
+        'str': search_word
     }
     return render(request, 'search.html', context)

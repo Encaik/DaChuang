@@ -12,33 +12,52 @@
 
     <body>
         <div id="body" class="p-4">
-            <div class="col-6">
-                <div id="search" class="mb-4 mt-2">
-                    <form action="search.html" method="get">
-                        <div class="input-group">
-                            <input id="searchInput" type="text" class="form-control" name="input" value="{{ str }}" placeholder="{{ str }}">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="submit" id="searchButton">
-                                    <i class="fa fa-search"></i>
-                                    搜索
-                                </button>
+            <nav class="bg-secondary fixed-top">
+                <div class="col-6">
+                    <div id="search" class="mt-3 mb-3 ml-4">
+                        <form action="search.html" method="get">
+                            <div class="input-group">
+                                <input id="searchInput" type="text" class="form-control" name="input" value="{{ str }}" placeholder="{{ str }}">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit" id="searchButton">
+                                        <i class="fa fa-search"></i>
+                                        搜索
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div id="context">
+            </nav>
+            <div id="context" class="mt-5">
                 <div id="text" class="mr-4 ml-4">
                     <table class="table">
                         {% for news in contacts %}
                             <tr class="row">
-                                <td class="col-8">
-                                    <a href="/static/data/{{ news.1 }}.txt">{% autoescape off %}{{ news.0 }}{% endautoescape off %}</a>
-                                    <a href="/static/report/{{ news.1 }}.pdf">
-                                        <i class="ml-1 fa fa-file-pdf-o"></i>
-                                    </a>
+                                <td class="col-12">
+                                    <div>
+                                        <h6>
+                                            <a href="/static/data/{{ news.2 }}.txt">
+                                                    {% autoescape off %}
+                                                        {{ news.0 }}
+                                                    {% endautoescape off %}
+                                            </a>
+                                            <a href="/static/report/{{ news.2 }}.pdf">
+                                                <button class="btn btn-danger btn-sm">
+                                                    <i class="fa fa-file-pdf-o"></i>
+                                                    PDF
+                                                </button>
+                                            </a>
+                                        </h6>
+                                    </div>
+                                    <div class="col-5 text-secondary">
+                                        <small>
+                                            {% autoescape off %}
+                                                {{ news.1 }}
+                                            {% endautoescape off %}
+                                        </small>
+                                    </div>
                                 </td>
-                                <td class="col-4">{{ news.2 }}</td>
                             </tr>
                         {% endfor %}
                     </table>
