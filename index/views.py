@@ -29,10 +29,12 @@ def searchPage(request):
 
 def contentPage(request):
     if request.method == 'GET':
-        file_name = request.GET.get('filename')
-    text = report.objects.get(filename=file_name)
+        search_word = request.GET.get('input')
+        id = request.GET.get('id')
+    text = search.finish(search_word)
+    temp = int(id) - 1
     context = {
-        'text': text
+        'text': text[temp]
     }
     return render(request, 'result.html', context)
 

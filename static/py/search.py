@@ -3,6 +3,7 @@
 
 from static.py import pdfText, getFileName
 import re
+from index.models import report
 
 
 # 关键词查找并返回结果字符串
@@ -15,21 +16,23 @@ def parse(search_word, name):
         text2 = sorted(set(text1), key=text1.index)
         highlight = "<b><font color='red'>" + search_word + "</font></b>"
         result = []
+        id = 0
         for _ in text2:
+            id += 1
             if len(_) > 40:
                 title = _[0:30]+'...'
                 content = _[0:110]+'...'
                 full = _
                 hl_title = re.sub(search_word, highlight, title)
                 hl_content = re.sub(search_word, highlight, content)
-                result.append([hl_title, hl_content, name, full])
+                result.append([hl_title, hl_content, name, full, id])
                 return result
             title = _
             content = _
             full = _
             hl_title = re.sub(search_word, highlight, title)
             hl_content = re.sub(search_word, highlight, content)
-            result.append([hl_title, hl_content, name, full])
+            result.append([hl_title, hl_content, name, full, id])
         return result
     except:
         result = []
