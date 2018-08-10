@@ -12,28 +12,31 @@ def parse(search_word, name):
         # pdfText.getText(name)
         fp = open('static/data/' + name + '.txt', 'rb')
         inner = fp.read().decode('utf-8')
-        text1 = re.findall(r'[^。]*' + search_word + r'[^。]*', inner)
+        search = search_word.replace(" ", ".*")
+        rstr = "[^。]*" + search + "[^。]*"
+        print(rstr)
+        text1 = re.findall(rstr, inner)
         text2 = sorted(set(text1), key=text1.index)
-        highlight = "<b><font color='red'>" + search_word + "</font></b>"
+
         result = []
         id = 0
         for _ in text2:
             id += 1
             if len(_) > 40:
-                title = _[0:30]+'...'
-                content = _[0:110]+'...'
-                full = _
-                hl_title = re.sub(search_word, highlight, title)
-                hl_content = re.sub(search_word, highlight, content)
-                result.append([hl_title, hl_content, name, full, id])
-                return result
-            title = _
-            content = _
+                newtitle = _[0:30]+'...'
+                newcontent = _[0:110]+'...'
+            else:
+                newtitle = _
+                newcontent = _
             full = _
-            hl_title = re.sub(search_word, highlight, title)
-            hl_content = re.sub(search_word, highlight, content)
-            result.append([hl_title, hl_content, name, full, id])
-        return result
+            for word in search_word.split(' '):
+                highlight = "<b><font color='red'>" + word + "</font></b>"
+                oldtitle = newtitle
+                oldcontent = newcontent
+                newtitle = re.sub(word, highlight, oldtitle)
+                newcontent = re.sub(word, highlight, oldcontent)
+            result.append([newtitle, newcontent, name, full, id])
+            return result
     except:
         result = []
         return result
@@ -41,7 +44,12 @@ def parse(search_word, name):
 
 def finish(search_word):
     results = []
-    names = getFileName.getsseFileNames()+getFileName.getszseFileNames()
+    names = [
+        'sse/600008_2017_n',
+        'sse/600008_2017_nzy',
+        'sse/600016_2017_nzy',
+    ]
+    # names = getFileName.getsseFileNames()+getFileName.getszseFileNames()
     for name in names:
         result = parse(search_word, name)
         if not result:
