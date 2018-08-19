@@ -30,6 +30,9 @@ class report(models.Model):
     rcp = models.ForeignKey('company', on_delete=models.CASCADE)
     year = models.CharField(max_length=4)
     text = models.TextField()
+    rdate = models.CharField(max_length=15)
+    rtype = models.CharField(max_length=10)
+    rtitle = models.CharField(max_length=30)
     filename = models.CharField(max_length=30)
 
     def __unicode__(self):
