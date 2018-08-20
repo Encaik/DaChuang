@@ -3,6 +3,7 @@ import urllib
 import urllib.request
 import re
 import json
+from index.models import report, company
 
 
 def getUrl(start, end, page):
@@ -30,7 +31,23 @@ def getUrl(start, end, page):
     content0 = json.loads(js)
     content = content0['result']
     for info in content:
-        url = 'http://www.sse.com.cn'+info['URL']
+        url = 'http://www.sse.com.cn' + info['URL']
+        filename = 'sse/' + info['URL'].split('/')[-1].split('.')[0]
+        rtype = info['bulletin_Type']
+        rdate = info['SSEDate']
+        year = info['bulletin_Year']
+        cnum =111111 # info['security_Code']
+        rtitle = info['title']
+        object = company.objects.get(cnum=cnum)
+        data = report(
+            rcp_id=object.cid,
+            filename=filename,
+            rtype=rtype,
+            rdate=rdate,
+            year=year,
+            rtitle=rtitle
+        )
+        data.save()
         urls.append(url)
     return urls
 

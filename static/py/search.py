@@ -4,17 +4,18 @@
 from static.py import pdfText, getFileName
 import re
 from index.models import report
+from static.py.sse import ssegetPdfs
+from static.py.szse import szsegetPdfs
+
 
 
 # 关键词查找并返回结果字符串
 def parse(search_word, name):
     try:
-        # pdfText.getText(name)
         fp = open('static/data/' + name + '.txt', 'rb')
         inner = fp.read().decode('utf-8')
         search = search_word.replace(" ", ".*")
         rstr = "[^。]*" + search + "[^。]*"
-        print(rstr)
         text1 = re.findall(rstr, inner)
         text2 = sorted(set(text1), key=text1.index)
 
@@ -56,3 +57,9 @@ def finish(search_word):
             pass
         results += result
     return results
+
+def server():
+    # pdfText.getText(name)
+    # ssegetPdfs.getpdf()
+    # szsegetPdfs.getpdf()
+    pass
