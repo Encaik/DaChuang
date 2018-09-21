@@ -18,7 +18,7 @@ def searchPage(request):
     text = search.finish(search_word)
     page = request.GET.get('page', 1)
     cus_list = text
-    paginator = Paginator(cus_list, 25)
+    paginator = Paginator(cus_list, 10)
     contacts = paginator.get_page(page)
     context = {
         'contacts': contacts,
@@ -32,6 +32,11 @@ def contentPage(request):
         search_word = request.GET.get('input')
         id = request.GET.get('id')
     text = search.finish(search_word)
+    if id == '':
+        context = {
+            'text': []
+        }
+        return render(request, 'result.html', context)
     temp = int(id) - 1
     context = {
         'text': text[temp]

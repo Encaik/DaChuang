@@ -38,11 +38,11 @@
                 <div id="text" class="mr-4 ml-4">
                     <table class="table">
                         {% for news in contacts %}
-                            <tr class="row">
+                            <tr class="row mt-1 mb-1">
                                 <td class="col-12">
                                     <div>
                                         <h6>
-                                            <a href="result.html?input={{ str }}&id={{ news.4 }}">
+                                            <a href="result.html?input={{ str }}&id={{ news.4 }}" style="font-size: large">
                                                     {% autoescape off %}
                                                         {{ news.0 }}
                                                     {% endautoescape off %}
