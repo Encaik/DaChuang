@@ -11,10 +11,8 @@ def indexPage(request):
 def searchPage(request):
     if request.method == 'GET':
         search_word = request.GET.get('input')
-        if search_word == '':
-            return render(request, 'index.html')
-        if search_word is None:
-            return render(request, 'index.html')
+        report = request.GET.get('report')
+        year = request.GET.get('year')
     text = search.finish(search_word)
     page = request.GET.get('page', 1)
     cus_list = text
@@ -27,6 +25,7 @@ def searchPage(request):
     return render(request, 'search.html', context)
 
 
+# 1标题 2文件名 3副标题 4id
 def contentPage(request):
     if request.method == 'GET':
         search_word = request.GET.get('input')
