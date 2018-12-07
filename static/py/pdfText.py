@@ -13,6 +13,6 @@ def getText(name):
     fp.seek(0)
     fp.truncate()
     fp.write(result.encode('utf-8'))
-    object = report.objects.get(filename=name)
+    object = report.objects.get(filename='name')
     object.text = result
     object.save()

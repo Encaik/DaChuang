@@ -13,7 +13,7 @@ def searchPage(request):
         search_word = request.GET.get('input')
         report = request.GET.get('report')
         year = request.GET.get('year')
-    text = search.finish(search_word)
+    text = search.finish(search_word, report, year)
     page = request.GET.get('page', 1)
     cus_list = text
     paginator = Paginator(cus_list, 10)
@@ -25,7 +25,7 @@ def searchPage(request):
     return render(request, 'search.html', context)
 
 
-# 1标题 2文件名 3副标题 4id
+# 0标题 1高亮副标题 2文件名 3全文 4id
 def contentPage(request):
     if request.method == 'GET':
         search_word = request.GET.get('input')

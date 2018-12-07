@@ -36,7 +36,7 @@ def getUrl(start, end, page):
         rtype = info['bulletin_Type']
         rdate = info['SSEDate']
         year = info['bulletin_Year']
-        cnum =111111 # info['security_Code']
+        cnum = info['security_Code']
         rtitle = info['title']
         object = company.objects.get(cnum=cnum)
         data = report(
@@ -49,6 +49,7 @@ def getUrl(start, end, page):
         )
         data.save()
         urls.append(url)
+        print(info['title'] + '获取完成')
     return urls
 
 
@@ -59,4 +60,5 @@ def getUrls(start, end, page):
         i += 1
         result = getUrl(start, end, str(i))
         allurls += result
+    print('全部Url获取完成')
     return allurls
