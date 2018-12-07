@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from index.models import user, report, new
+from index.models import report as rep
 from django.core.paginator import Paginator
 from static.py import search
 
@@ -25,12 +25,15 @@ def searchPage(request):
     return render(request, 'search.html', context)
 
 
-# 0标题 1高亮副标题 2文件名 3全文 4id
 def contentPage(request):
     if request.method == 'GET':
         search_word = request.GET.get('input')
+        name = request.GET.get('filename')
+        obj = rep.objects.get(filename=name)
+        report = obj.rtype
+        year = obj.year
         id = request.GET.get('id')
-    text = search.finish(search_word)
+    text = search.finish(search_word, report, year)
     if id == '':
         context = {
             'text': []

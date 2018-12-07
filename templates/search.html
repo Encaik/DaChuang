@@ -55,36 +55,39 @@
                     <table class="table">
                         {% for news in contacts %}
                             <tr class="row mt-1 mb-1">
-                                <td class="col-12">
+                                <td class="col-6">
                                     <div>
                                         <h6>
-                                            <a href="result.html?input={{ str }}&id={{ news.4 }}" style="font-size: large">
+                                            <a href="result.html?input={{ str }}&filename={{ news.3 }}&id={{ news.0 }}" style="font-size: large">
                                                     {% autoescape off %}
-                                                        {{ news.0 }}
+                                                        {{ news.1 }}
                                                     {% endautoescape off %}
                                             </a>
-                                            <a class="btn_a ml-2" href="filepage.html?filename={{ news.2 }}&filemode=pdf&fileset=report">
-                                                <button class="btn btn-danger btn-sm" href="filepage.html?filename={{ news.2 }}&filemode=pdf&fileset=report">
+                                            <a class="btn_a ml-2" href="filepage.html?filename={{ news.3 }}&filemode=pdf&fileset=report">
+                                                <button class="btn btn-danger btn-sm" href="filepage.html?filename={{ news.3 }}&filemode=pdf&fileset=report">
                                                     <i class="fa fa-file-pdf-o"></i>
                                                     PDF
                                                 </button>
                                             </a>
-                                            <a class="btn_a ml-2" href="filepage.html?filename={{ news.2 }}&filemode=txt&fileset=data">
-                                                <button class="btn btn-dark btn-sm" href="filepage.html?filename={{ news.2 }}&filemode=txt&fileset=data">
+                                            <a class="btn_a ml-2" href="filepage.html?filename={{ news.3 }}&filemode=txt&fileset=data">
+                                                <button class="btn btn-dark btn-sm" href="filepage.html?filename={{ news.3 }}&filemode=txt&fileset=data">
                                                     <i class="fa fa-file-text-o"></i>
                                                     TXT
                                                 </button>
                                             </a>
                                         </h6>
                                     </div>
-                                    <div class="col-5 text-secondary">
+                                    <div class="col-8 text-secondary">
                                         <small>
                                             {% autoescape off %}
-                                                {{ news.1 }}
+                                                {{ news.2 }}
                                             {% endautoescape off %}
                                         </small>
                                     </div>
                                 </td>
+                                <td class="col-2">{{ news.3 }}</td>
+                                <td class="col-2">{{ news.5 }}</td>
+                                <td class="col-2">{{ news.6 }}</td>
                             </tr>
                         {% endfor %}
                     </table>

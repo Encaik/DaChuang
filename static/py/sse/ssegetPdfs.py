@@ -10,21 +10,25 @@ def getpdf():
         file_name = url.split('/')[-1]
         try:
             u = urllib.request.urlopen(url)
-            path = '../../report/sse/' + file_name
+            path = 'static/report/sse/' + file_name
             print(path)
             if not os.path.exists(path):
-                print('创建pdf文件')
-                f = open(path, 'wb')
-                print('创建完成')
-                while True:
-                    print('1')
-                    buffer = u.read(8192)
-                    print(buffer)
-                    if not buffer:
-                        break
-                    f.write(buffer)
-                f.close()
-                print("成功下载文件" + file_name)
+                try:
+                    f = open(path, mode='wb')
+                    try:
+                        while True:
+                            buffer = u.read(8192)
+                            if not buffer:
+                                break
+                            f.write(buffer)
+                    except:
+                        print('缓存文件失败' + file_name)
+                        pass
+                    f.close()
+                    print("成功下载文件" + file_name)
+                except:
+                    print('创建文件失败' + file_name)
+                    pass
         except:
             print('下载文件失败' + file_name)
             pass
