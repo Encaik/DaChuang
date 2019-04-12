@@ -1,5 +1,7 @@
 # 基于数据挖掘的上市公司年报搜索平台
 
+![](https://img.shields.io/github/languages/top/Encaik/DaChuang.svg)
+
 ## 1. 进度安排
   - 2018.6-2018.7 学习分工到的知识
   - 2018.8-2.18.9 做出完整的静态网站
